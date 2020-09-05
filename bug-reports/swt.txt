@@ -1,0 +1,98 @@
+14654*?*typing Single line selection on tripleclick*?*Bug
+58185*?*Eclipse fails to load oldstyle BMP files*?*Bug
+75739*?*Variant has no toString*?*Bug
+77948*?*NullPointerException in CLabel findMnemonic*?*Bug
+78548*?*consistency Button Selection fires before MouseUp*?*Bug
+78559*?*consistency Slider fires two Selection events before MouseDown*?*Bug
+78634*?*ImageData getTransparencyMask incorrect javadoc or implementation wrong*?*Bug
+78854*?*Memory leak in ClipboardProxy getFunc*?*Bug
+78856*?*Clipboard SWT has no support for Image copy to clipboard*?*Bug
+79107*?*consistency setItems String with null elements*?*Bug
+79268*?*Program API does not work with GNOME libgnomevfsWARNING*?*Bug
+79419*?*Preferences Need link component*?*Bug
+79481*?*Sash no longer draggable when too small*?*Bug
+80120*?*CTabFolder layout puts top right item one pixel to far to the right*?*Bug
+80276*?*CBannerLayout calls Control update too often*?*Bug
+80506*?*consistency forceActive and setActive are inconsistent across platforms*?*Bug
+80830*?*implement GC drawFocus*?*Bug
+81242*?*JUnit GP in Clipboard getContents*?*Bug
+81264*?*Table fails to setTopIndex after new items are added to the table*?*Bug
+81265*?*background of tree is incorrect when disabled*?*Bug
+81834*?*BIDI StyledText does not convert European Number to Arabic Number*?*Bug
+82277*?*XP theme coolbars gradient background*?*Bug
+82346*?*CLabel disappears when given SWT CENTER flag in constructor*?*Bug
+82500*?*TabFolder should not use PtCalcCanvas in getClientArea*?*Bug
+82905*?*drawImage doesn honor clip rect*?*Bug
+83251*?*Javadoc warnings in latest builds*?*Bug
+83262*?*rxvt pastes null terminator*?*Bug
+83408*?*Support links in StyledText*?*Bug
+83699*?*Font reset to default after screen saver*?*Bug
+84012*?*StyledText with SWT WRAP style does not adjust selection correctly*?*Bug
+84557*?*Table item does not appear in table*?*Bug
+84609*?*TableColumn has NPE while calling pack on last column*?*Bug
+84906*?*We found some typos or broken links*?*Bug
+84911*?*Unspecified methods*?*Bug
+85072*?*Eclipse working set aggressively trimmed by Windows*?*Bug
+86000*?*ImageLoader Save produces invalid JPEG images*?*Bug
+86294*?*Find Replace not working Illegal Unsupported escape on the Mac*?*Bug
+86631*?*Javadoc wrong for Image stream*?*Bug
+87363*?*Regression MenuDetect no longer opens new menus*?*Bug
+87460*?*StyledText Caret location not updated when line style is used*?*Bug
+87676*?*Doubleclick only works on tree column*?*Bug
+87855*?*NullPointerException in Table callWindowProc*?*Bug
+87997*?*TableEditor dispose causes NPE if linked Table is being disposed*?*Bug
+88717*?*DND Tree is scrolling very slow when dragging an Item to the Bottom*?*Bug
+88829*?*Table setColumnOrder may not fire enough Move events*?*Bug
+89533*?*Themes Colors and Fonts preferences page has funny icons for color entries*?*Bug
+90018*?*Native tooltips left around on CTabFolder*?*Bug
+90258*?*Table item not updated when item count*?*Bug
+91159*?*Consistency DropTarget event dataType field not alwys set on DragEnter*?*Bug
+91317*?*Spinner should support negative values*?*Bug
+92013*?*DCR Need SWT VERTICAL style for CoolBar*?*Bug
+92017*?*Support very large Image on Windows platform*?*Bug
+92181*?*Bogus CTabFolder tab sizes*?*Bug
+92241*?*StyledText should not fill the clipboard on every selection change*?*Bug
+92341*?*DCR Add SWT VIRTUAL style to Tree widget*?*Bug
+92612*?*CTabFolder hidden tabs count in chevron can become*?*Bug
+92757*?*StyledText Add caret listener*?*Bug
+93380*?*DnD CPU usage when dragging files in the navigator or package explorer*?*Bug
+93724*?*Draganddrop creates signal names every time*?*Bug
+94467*?*Table layouts which only lay out once are giving bogus sizes*?*Bug
+94598*?*DBCS Eclipse hangs when activate IIMF input in search scope of Help*?*Bug
+94603*?*Spinner does not look like Windows standard one*?*Bug
+95410*?*GDI drawString is not consistent with GDI*?*Bug
+96053*?*Spinner Pressing buttons should focus spinner and select text*?*Bug
+96916*?*Spinner setToolTipText doesn work*?*Bug
+97177*?*misc Chinese IME status lost*?*Bug
+97651*?*tree insert mark cheese*?*Bug
+97678*?*SashForm can lose sash for item on far right*?*Bug
+97745*?*Table column header stays pressed if mouse button released elsewhere*?*Bug
+99145*?*Link widget only disables link not text*?*Bug
+99266*?*Viewers Bogus empty rows at the beginning of table*?*Bug
+99376*?*TableColumn has width and second column missing*?*Bug
+100040*?*Slowdown between RC and due to change to ImageList*?*Bug
+100095*?*DND Consider making URLTransfer public*?*Bug
+100387*?*CTabFolder creates and disposes Shell on every MouseHover*?*Bug
+101354*?*Class ImageDataLoader needs javadoc*?*Bug
+102756*?*Use GtkComboBox instead of GtkCombo*?*Bug
+102794*?*GridLayout has change behaviour between and*?*Bug
+103863*?*Support encapsulation in SWT layout mechanism*?*Bug
+103976*?*Spinner widget should provide setValues method like Slider*?*Bug
+104150*?*Patch Table cursor separated from table selection when clicking on grid lines or empty space*?*Bug
+104545*?*Make default size of empty composites smaller*?*Bug
+104966*?*Link displays as enabled when setText called after setEnabled*?*Bug
+105772*?*Strange background color of label on text search page*?*Bug
+106289*?*Blurry Tree text in second column*?*Bug
+106372*?*Provide DND support for the StyledText widget*?*Bug
+107145*?*Javadoc can not refer to package protected methods*?*Bug
+108236*?*Spinner does not allow min max*?*Bug
+108591*?*SWT StyledText does not support inline Input method*?*Bug
+108769*?*swt FileDialog additional clarification in javadoc and convenience method*?*Bug
+108792*?*Horizontal caret position lost due to StyledText replaceStyleRanges*?*Bug
+108813*?*LineStyles in Very Long Lines Takes Forever*?*Bug
+111259*?*DND Insertion mark in TreeViewer does not go away on GTK*?*Bug
+112358*?*Need way to create new Color based on an existing color*?*Bug
+113971*?*Test failures in Tree on*?*Bug
+115947*?*Accessibility Cannot set tooltip Text for image in Table Column*?*Bug
+117574*?*RIGHT TO LEFT DOUBLE BUFFERED don get along*?*Bug
+119192*?*CCombo CCombo Mouse problem listeners not fired*?*Bug

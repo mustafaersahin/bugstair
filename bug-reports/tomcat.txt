@@ -1,0 +1,1056 @@
+56012*?*wrong import statement generation while using the extends attribute of the page directive*?*Bug
+56029*?*Ternary operator doesn work as expected inside attributes in jspx pages*?*Bug
+55943*?*Provide way prevent looking at the System classloader before the webapp classloaders*?*Bug
+56025*?*Order of invocation of method of ServerEndpointConfig Configurator*?*Bug
+56010*?*JspFactory getPageContext with JspWriter DEFAULT BUFFER throws IllegalArgumentException*?*Bug
+55996*?*Async context does not timeout with HTTP NIO connector*?*Bug
+55995*?*java lang NullPointerException at org apache jasper servlet JspCServletContext getResource JspCServletContext java*?*Bug
+55893*?*Split AccessLogValve and extract the formatting logic in an AbstractAccessLogValve*?*Bug
+55978*?*Initial call to onWritePossible not made by container when using HTTP upgrade*?*Bug
+55976*?*Broken response from NIO connector in Tomcat*?*Bug
+55974*?*Honor the order when reporting XML parsing errors and warnings in XmlErrorHandler class*?*Bug
+55970*?*reloadable context is reloaded repeatedly if WEBINF lib contains nonjar files*?*Bug
+55960*?*TestSSOnonLoginAndBasicAuthenticator is flawed and incomplete*?*Bug
+55958*?*Tomcat tries to deploy dir as zip archive even when it is directory if the name ends with war*?*Bug
+55937*?*Tomcat auto deployer not working for ROOT applications*?*Bug
+55939*?*Seeing issues with nonblocking io when writing lots of data*?*Bug
+55905*?*Error message unhelpful when web xml references tld file that doesn exist*?*Bug
+55884*?*JSPs no longer compile in Java*?*Bug
+55820*?*Add range to default internal proxies*?*Bug
+55811*?*Do not parse webfragment xml files when empty absoluteordering*?*Bug
+55801*?*Add ability to provide custom SSLContext for websocket client*?*Bug
+55851*?*Tomcat SPNEGO authenticator incompatible with IBM JDK Accept Security Context needs to be wrapped around Privileged Action in order for server side authentication*?*Bug
+55842*?*response setBufferSize does not seem to work properly*?*Bug
+55837*?*ServletContext getRealPath returns null*?*Bug
+55804*?*SPNEGOAUTHENTICATOR GSSCredential does not get renewed after RemainingLifeTime is less than zero*?*Bug
+55798*?*Enabling Manager App process and description is inadequate*?*Bug
+55778*?*JNDIRealm Authentication with GSSAPI to LDAP with SSL connection causes an exception*?*Bug
+55776*?*if path include relative char eg classloader will not find zhe file*?*Bug
+55772*?*Flushing AsyncContext response writer after ClientAbortException BrokenPipe causes request state to leak*?*Bug
+55760*?*Tomcat SPNEGO authenticator incompatible with IBM JDK in case of Keytab based initiate and accept authentication*?*Bug
+55749*?*Disabling SSLEngine in AprLifecycleListener leads to misleading error message at startup when SSL Connector is delcared*?*Bug
+55735*?*Additional quote entity in html element attribute evaluated in tagx if attribute contains EL expression*?*Bug
+55715*?*RemoteEndpoint Async sendText String SendHandler can cause StackOverflowErrors and contradicts Oracle JavaDoc*?*Bug
+55702*?*TLD cannot be loaded if CATALINA HOME contains spaces*?*Bug
+55684*?*WebappClassLoader getThread want an access to root ThreadGroup*?*Bug
+55691*?*javax el ArrayELResolver setValue not supporting arrays of primitives*?*Bug
+55681*?*JSR message handling NULL pointer being thrown when DecodeException is caught in PojoMessageHandlerWholeBase onMessage*?*Bug
+55664*?*websocket NPE in Util DecoderMatch during application start*?*Bug
+55656*?*Server ClassLoader not used for Server creation*?*Bug
+54095*?*patch support gzipped versions of static resources by DefaultServlet*?*Bug
+55251*?*JspC fails silently if directory for generated web xml does not exist*?*Bug
+55642*?*TagPluginManager isConstantAttribute broken*?*Bug
+55630*?*clean way to avoid setURLStreamHandlerFactory call*?*Bug
+55629*?*StatusManagerServlet does not remove JMX notification listener*?*Bug
+55317*?*Facilitate weaving by allowing ClassFileTransformer to be added to WebppClassLoader*?*Bug
+55576*?*Order of ServletRequest parameters is not preserved*?*Bug
+55582*?*Concurrent issue of TagFileProcessor*?*Bug
+55570*?*SpnegoAuthenticator Resource file is missing placeholders for exceptions*?*Bug
+46727*?*DefaultServlet serving multiple encodings*?*Bug
+52558*?*CometConnectionManagerValve is adding nonserializable Request to Session*?*Bug
+55552*?*Potential NullPointerException in compiled JSPs if expected EL result is of primitive type*?*Bug
+54693*?*Add validationQueryTimeout property*?*Bug
+55521*?*Race Condition in HttpSession invalidate HttpServletRequest getSession boolean*?*Bug
+55527*?*JSSESocketFactory conditionally converts alias to lower case condition is unwise*?*Bug
+55343*?*Add flag to ignore exceptions while creating initial pool*?*Bug
+55342*?*Lost interruption*?*Bug
+55500*?*AsyncListener onTimeout is not called via AJP AjpNioProtocol connector*?*Bug
+55494*?*JNDIRealm throws exception after timeout Connection reset*?*Bug
+55453*?*AJP send Body with Status*?*Bug
+51526*?*Process web application context config with embedded Tomcat addWebApp*?*Bug
+55469*?*Missing HTML closing tags in Manager application*?*Bug
+55454*?*NullPointerException caused by invalid contentType trailing semicolon*?*Bug
+55442*?*EL Constructor throws exception*?*Bug
+55438*?*Non Blocking API onAllDataRead being called twice*?*Bug
+55434*?*The path foo bar causes IllegalArgumentException when WsServerContainer creates UriTemplate*?*Bug
+55354*?*JNDIRealm getPrincipal context username gssCredential corrupts realm context*?*Bug
+55357*?*Cannot deserialize session when it contains Externalizable objects using PersistentManager*?*Bug
+55400*?*WsFilter not compatible with async sample applications*?*Bug
+55404*?*ContextConfig validateSecurityRoles emits three info log messages which contain warning*?*Bug
+52092*?*Please make AsyncFileHandler and OneLineFormatter the default for logging properties*?*Bug
+55345*?*Webresources class AbstractResourceSet throws exception upon callong ServletContext getRealPath*?*Bug
+55333*?*JDBCRealm Digest authentication Flow is not working throws Function sequence error*?*Bug
+55316*?*Ugly error log when WS client disconnects unexpectedly*?*Bug
+55312*?*No SCI scan in embedded Tomcat*?*Bug
+55309*?*Concurrent issue of TagPluginManager*?*Bug
+55287*?*ServletContainerInitializer in parent classloader may not be found*?*Bug
+55267*?*NIO thread locked*?*Bug
+55291*?*Bug in WsServerContainer leading to NPE*?*Bug
+55262*?*Duplicate preludes and codas in same jsppropertygroup are ignored*?*Bug
+55259*?*Unnecessary work in JspConfig*?*Bug
+55245*?*Add test cases for JspC*?*Bug
+55250*?*JspC does not initialize tldLocationsCache resulting in NPE*?*Bug
+55244*?*JspC throws ClassNotFoundException from Digester*?*Bug
+55240*?*websocket SOE in NioEndpoint*?*Bug
+55238*?*websocket NPE in clearHandler WsRemoteEndpointImplServer java*?*Bug
+55228*?*AbstractHttp Processor overwrites Date header even when set by application*?*Bug
+55207*?*In XML syntax jsp text does not error on subelements from other namespaces*?*Bug
+55231*?*NPE and incorrect version detection in JspC*?*Bug
+55218*?*Upgrade Digester to be based on DefaultHandler and use LexicalHandler to detect publicId*?*Bug
+55217*?*Common EntityResolver that can be used by Catalina and Jasper*?*Bug
+55166*?*schemaLocation references between servlet and jsp XSDs are invalid*?*Bug
+55210*?*SEVERE The ServletContentInitializer Licensed to the Apache Software Foundation ASF under one or more could not be created*?*Bug
+55200*?*websocket Problem writing many subsequent binary messages*?*Bug
+55186*?*useIPVHosts true incorrect to get Request localName*?*Bug
+55184*?*NPE in PojoMethodMapping getMessageHandler*?*Bug
+55183*?*Missing WS Protocol Header in session negotiatedHeaders*?*Bug
+55165*?*subprotocols not available with annotated serverendpoint*?*Bug
+55181*?*Ping and Pong messages should have identical application data*?*Bug
+55180*?*connectionTimeout causes timeout can be negative*?*Bug
+55174*?*jsr websocket MessageHandler never gets notified again after it throws exception*?*Bug
+55179*?*Incorrect Parameter Name in RemoteIpValve Examples*?*Bug
+55177*?*connectionTimeout causes high CPU*?*Bug
+53777*?*Ability to bundle JAAS Configuration in Webappp*?*Bug
+55160*?*NIO connectionUploadTimeout can work*?*Bug
+55158*?*Wasted work in AttributeNamesEnumerator constructor*?*Bug
+55159*?*Wasted work in ErrorReportValve getPartialServletStackTrace*?*Bug
+55017*?*Ability to configure RMI bind address*?*Bug
+55151*?*Fix in MsgByte encoder and decoder TestEncodingDecoding websocket test*?*Bug
+55102*?*Add ability to report time taken to prepare response*?*Bug
+55125*?*Tomcat does not shut down if LifecycleListener throws an exception*?*Bug
+55127*?*Encoders init and destroy methods are never called*?*Bug
+55126*?*IAE is thrown during deployment of ServerEndPoint having multiple text decoders*?*Bug
+55101*?*BasicAuthenticator parser and associated unit tests*?*Bug
+54745*?*Tomcat JarScanning does not work when Tomcat started with Java Web Start*?*Bug
+53987*?*Log uncovered HTTP methods in combined security constraints*?*Bug
+55073*?*wasted work in ValidateVisitor isExpression*?*Bug
+55108*?*Wasted work in AbstractReplicatedMap excludeFromSet*?*Bug
+55109*?*Wasted work in WebdavServlet isLocked*?*Bug
+55110*?*Wasted work in TestNonLoginAndBasicAuthenticator doTestBasic*?*Bug
+55052*?*JULI Make ClassLoaderLogManager getProperty to try unprefixed property if prefixed one does not exist*?*Bug
+55046*?*CORS Filter*?*Bug
+55035*?*Deploy ROOT webapp with version through text manager using Ant*?*Bug
+54999*?*JSESSIONIDSSO not recreated upon reauthentication on the same request logout and login username password*?*Bug
+54997*?*SSL Handshake implementation in AsycnChannelWrapperSecure does not handle SSLEngineResult Status BUFFER UNDERFLOW and SSLEngineResult Status BUFFER OVERFLOW states*?*Bug
+54971*?*javax servlet http Part write String fileName is not properly implemented*?*Bug
+54964*?*Class loading issue of TagPlugin in TagPluginManager*?*Bug
+54963*?*Concurrent issue of Spdy NetSupportSocket*?*Bug
+54961*?*Make compress configurable in SpdyProxyProtocol*?*Bug
+54947*?*Http NioProtocol generates HTTP responses on valid requests if request is split across multiple packets*?*Bug
+54944*?*Enhancements to TestFormAuthenticator*?*Bug
+55019*?*jsp include page blabla flush true failed to compile under security manager*?*Bug
+54984*?*multipart formdata is not always read with correct encoding*?*Bug
+54928*?*IllegalStateException Calling asyncError is not valid for request with Async state COMPLETING*?*Bug
+54955*?*Mapping to application context root returns after reload*?*Bug
+54981*?*ServletContext getJspConfigDescriptor should return null when there is no jsp configuration*?*Bug
+54974*?*SessionCookieConfig setXXX methods must throw IllegalStateException when invoked after initialization phase*?*Bug
+54703*?*Nullpointer exception in HttpParser parseMediaType*?*Bug
+54906*?*WebappClassLoader loadedByThisOrChild can throw ConcurrentModificationException*?*Bug
+54926*?*WsFilter performs handshake validation even if it doesn have mapped endpoint*?*Bug
+54888*?*TagPlugin ForEach doesn support CSV items*?*Bug
+54801*?*ELlike expressions in jsp scriptlet break compilation of JSP XML documents*?*Bug
+54178*?*CVE runtime exception in onComplete of AsyncListener will make org apache catalina connector Request not recycled orginally reported MESSAGE POST to tomcat but it called doGet*?*Bug
+54708*?*Use base file name ROOT as the work directory for the default webapp instead of*?*Bug
+54781*?*NPE in WsServerContainer if there is no matching path*?*Bug
+54792*?*IllegalStateException with chat sample*?*Bug
+54800*?*Possible thread memory leak with use of WebSocketContainer*?*Bug
+54807*?*jsr java lang ClassCastException org apache tomcat websocket server WsServerContainer TemplatePathMatch*?*Bug
+54822*?*URL with Query String can work over SPDY*?*Bug
+54851*?*Folder without webfragment xml should not impact the status of distributable*?*Bug
+54755*?*Typebased Endpoint cannot be deployed by instance*?*Bug
+54748*?*IOException in echo WebSocket example*?*Bug
+54732*?*StatementCache interceptor does not forward calls to Statement close which causes memory leaks*?*Bug
+54599*?*DataSource password is exposed to applications via toString method*?*Bug
+54724*?*WsSession does not throw IllegalStateException if closed when methods on it are called*?*Bug
+54721*?*RemoteEndpoint blocks indefinitely if sendObject called with BinaryStream of TextStream encoders*?*Bug
+54710*?*Java WebSocket specification says OnMessage methods can have InputStream Reader parameters OnClose can have CloseReason parameters*?*Bug
+54709*?*Official schemes for WebSocket are ws wss WsWebSocketContainer only allows http https*?*Bug
+54712*?*Prefer Locale ENGLISH over Locale US for case conversion*?*Bug
+54631*?*PathParam is not working with OnMessage*?*Bug
+54702*?*File descriptor leak at web xml loading*?*Bug
+54658*?*Implement Part getSubmittedFileName from SERVLET SPEC*?*Bug
+54660*?*AccessLogValve fileDateFormat can not be changed through JMX*?*Bug
+54690*?*HTTPS BIO NIO connector does not enable TLS and TLS by default*?*Bug
+54671*?*Spec says ServerContainerProvider getServerContainer should be public but implemented packageprivate in Tomcat*?*Bug
+54628*?*there is something wrong when send binary data by websocket*?*Bug
+54624*?*Form authenticator hangs on reauthentication of POST request behind mod proxy ajp*?*Bug
+54612*?*Fatal Error when trying to send data to WebSocket with conection closed*?*Bug
+54638*?*manager status XML true*?*Bug
+54585*?*WebappLoader doesn honor delegate attr while constructing jsp classpath*?*Bug
+54602*?*CConverter character decode underflow leaves bytes in buffer*?*Bug
+54203*?*Part class missing documentation*?*Bug
+54552*?*Completed Servlet spec for changeSessionId HttpSessionIdListener*?*Bug
+54536*?*ErrorReportValve doesn respect HttpServletResponse sendError int sc String msg*?*Bug
+54239*?*Extensible EL Interpreter*?*Bug
+54456*?*ChunkedInputFilter returning EOF when client closes connection without sending end chunk*?*Bug
+54521*?*DigestAuthenticator nonceCountValid fails in case of simultaneous asynchronous requests of the same client*?*Bug
+54534*?*JMX connection may load servlet with invalid ClassLoader*?*Bug
+54513*?*NullPointerException in AprEndpoint Poller run*?*Bug
+54497*?*RuntimeException in WebappClassLoader checkThreadLocalMapForLeaks causes LifecycleException*?*Bug
+54496*?*tribes membership MemberImpl toString might be better using getClass getName*?*Bug
+53869*?*Performance tuning solution to resolve too many cascaded JspContextWrapper issue*?*Bug
+54476*?*incorrect param specification in javadoc tribes group GroupChannel send methods*?*Bug
+54466*?*No file name information in detail error when compiling the java file generated from tag file*?*Bug
+54458*?*DataSourceRealm should provide more info on SQLException*?*Bug
+54450*?*Injection fails when part of the servlet properties uses Resource and the other uses injectiontarget*?*Bug
+54448*?*Field of primitive type annotated with Resource is not recognized as env entry*?*Bug
+54324*?*Support is required to disable TLS compression to prevent against CRIME attacks*?*Bug
+54438*?*Bug fix introduces NullPointerException in RealmBase java line when user not found in JDBC*?*Bug
+54440*?*TagPluginManager init throws NPE when used in Ant jasper task*?*Bug
+54406*?*NIO and BIO connectors handle unsupported SSL ciphers and sslEnabledProtocols differently*?*Bug
+54387*?*Having servlets with same url should at least cause warning*?*Bug
+54379*?*Implement support for postconstruct and predestroy elements in web xml*?*Bug
+54382*?*Nullpointer Exception after activating SSI and loading of any htmlfile with specific comment*?*Bug
+54381*?*Websocket StreamInbound never reports receipt of Pong*?*Bug
+54377*?*RemoteIpFilter does not correctly set request attributes for AccessLog*?*Bug
+54380*?*In MapperListener lifecycleEvent check state of parent before calling registerWrapper*?*Bug
+54248*?*Retrieving content that contains BOM via request getReader issue*?*Bug
+54284*?*Util objectNameValueNeedsQuote throws NPE for anonymous Filters*?*Bug
+54262*?*An empty absoluteordering should turn off all webfragments*?*Bug
+54370*?*NPE mapping method in EL*?*Bug
+54260*?*JSP unloading NullPointerException when using tag files*?*Bug
+54256*?*Enhance Exception reporting on JAR file error*?*Bug
+54247*?*Exception in JmxRemoteLifecycleListener destroyServer*?*Bug
+54241*?*NPE in BodyContentImpl*?*Bug
+54194*?*NPE in DataSource registerJmx although DataSource is created with setJmxEnabled false*?*Bug
+54150*?*SlowQueryReportJmx mbean deregistration failure due to NPE properties not set during pool close callback*?*Bug
+54220*?*ErrorReportValve invoked on nonerror responses too*?*Bug
+54217*?*JDBC connection pool runs out of connections when Context reload true is enabled in Tomcat*?*Bug
+54207*?*javaURLContextFactory javadoc refers to defunct package names in initial context properties*?*Bug
+54198*?*Improve HttpServletResponse sendError int JavaDoc description*?*Bug
+54144*?*Processing of java io Reader in Out tagplugin*?*Bug
+54143*?*Add display of PermGen memory pool usage to the Status page of the Manager webapp*?*Bug
+54141*?*Configuration does not allow Realms to be nested more than levels deep*?*Bug
+54087*?*HTTP Connector incorrectly throws Exception on Invalid IfModifiedSince Header*?*Bug
+54115*?*Minor enhancements to HttpClient test helper class*?*Bug
+54124*?*wrong javax servlet async request uri information and javax servlet async path info is missing*?*Bug
+54123*?*servlet spec violation in async timeout processing*?*Bug
+54127*?*WsOutbound is missing ping method*?*Bug
+54096*?*enventry rejects legal types*?*Bug
+54076*?*SPNEGO authenticator statelessness incompatible with stateful clients*?*Bug
+54068*?*Web fragment sorting incorrectly detects circular reference*?*Bug
+54067*?*Upgrade Response with TransferEncoding chunked invalid*?*Bug
+53867*?*Performance tuning solution for PageContextImpl XmlEscape*?*Bug
+54054*?*CGIServlet with different Parameter passShellEnvironment*?*Bug
+54022*?*CometEvent END event is not sent on suspended socket disconnect when running with Tomcat Native tcnative dll on Windows Vista Windows Server or newer*?*Bug
+54017*?*new String instance is generated for constant string in Generator convertString*?*Bug
+54012*?*No pageContext in tag files generated java code when using code generation by JSTL tagplugin Set*?*Bug
+54045*?*ReplicatedMap don like TcpFailureDetector in static configuration*?*Bug
+54010*?*Suggestion for code improvement avoiding potential bug*?*Bug
+53993*?*NPE in AccessLogValve*?*Bug
+53986*?*Comment end tag preceded directly by dash causes JSP fail compilation*?*Bug
+53854*?*DefaultServlet directory listings for aliased directories do not seem to work*?*Bug
+53863*?*Unable to override default servlet when using Tomcat in embedded mode*?*Bug
+52777*?*Automatically shut down old versions in parallel deployment*?*Bug
+53713*?*Performance tuning solution for JspReader*?*Bug
+53828*?*StreamInbound closeOutboundConnection WsFrame closes with an opcode instead of status*?*Bug
+53801*?*Nondeterministic behaviour of security constraints*?*Bug
+53800*?*Infinte loop cause by FileDirContext in CDI Weld project when using Eclipse Server modules without publishing*?*Bug
+53793*?*Change webapp links in Manager to point to appname instead of appname*?*Bug
+42181*?*ArrayIndexOutOfBoundsException in parseChunkHeader*?*Bug
+53783*?*Static resources and jsp files under WEBINF lib jar METAINF resources are not found*?*Bug
+53758*?*Dynamic Filter Registration mapping logic inverted*?*Bug
+53725*?*Some GZipped responses result in java io IOException Corrupt GZIP trailer during gunzip*?*Bug
+53714*?*misleading log output when jarsToSkip cointains webfragments*?*Bug
+53697*?*java lang NullPointerException at org apache coyote http Http AprProcessor actionInternal Http AprProcessor java*?*Bug
+53702*?*Only the last urlpattern from jsppropertygroup is processed*?*Bug
+53654*?*JSP file is always recompiled for using file based TLD URL*?*Bug
+53624*?*sendRedirect doesn work after dispatch through the AsyncContext*?*Bug
+53701*?*Javadoc fixes*?*Bug
+53700*?*InternalNioOutputBuffer unused debug code*?*Bug
+53574*?*metadatacomplete true and servlet defined as jsp not working*?*Bug
+53545*?*jsp forward action to static resources causes IllegalStateException when inside classic custom tag*?*Bug
+53541*?*Bug in virtual webapp feature Custom tags badly supported Error is org apache jasper JasperException The absolute uri http java sun com jsp jstl core cannot be resolved in either web xml or the jar files deployed with this application*?*Bug
+53481*?*Support SSL OP CIPHER SERVER PREFERENCE SSLHonorCipherOrder*?*Bug
+53641*?*Wrong websocket subprotocol implementation*?*Bug
+53607*?*No message set for PING TcpPingInterceptor fail with NullPointerException in ChannelData getDataPackageLength*?*Bug
+53606*?*NullPointerException in TcpPingInterceptor*?*Bug
+53535*?*Out of memory while performing ContextConfig webConfig*?*Bug
+53469*?*possible bug in Response normalize CharChunk cc*?*Bug
+53529*?*Call interrupt after InterruptedException instead interrupted*?*Bug
+53526*?*ConnectionPool terminateTransaction unsafe check of Boolean*?*Bug
+53523*?*rollbackOnReturn commitOnReturn does not work without defaultAutoCommit false*?*Bug
+53513*?*Race condition out of order operation in session replication at node startup*?*Bug
+53498*?*Atomicity violation bugs because of misusing concurrent collections*?*Bug
+45995*?*RFE MIME type extension not case sensitive*?*Bug
+52135*?*Global error page is not handled*?*Bug
+53467*?*will no longer accept our jsp filenames*?*Bug
+53416*?*Two datasources with the same name in different web applications results in javax management InstanceAlreadyExistsException*?*Bug
+53465*?*mappedname is read when in Resource but not when in web xml*?*Bug
+53460*?*Use error handling when TooManyActiveSessionsException happens in JSP*?*Bug
+53445*?*Support consistent Jmx object naming strategy across managed resources*?*Bug
+53430*?*JVM crash at startup if TCNative version is too old*?*Bug
+53421*?*BeanELResolver inner class BeanProperty throws incorrect message while PropertyNotFound*?*Bug
+53450*?*Deployment of an application with ROOT context hangs forever*?*Bug
+53406*?*Stack overflow in connector*?*Bug
+52954*?*Allowing for broken android HTTP DIGEST support*?*Bug
+53266*?*ServletContainerInitializer will crash catalina if dependcy is not present*?*Bug
+53398*?*Incorrect tag on XML response when calling manager status XML true*?*Bug
+52955*?*Add ThreadFactory implementation to the ExecutorService used to deploy applications*?*Bug
+53374*?*DataSourceFactory does not support commitOnReturn property*?*Bug
+53373*?*Allow whitespace around delimiters in Context aliases for readability*?*Bug
+53367*?*Database failure may cause pool to hang*?*Bug
+53032*?*Ant Jasper task fails to run when using XML namespaces no output no errors*?*Bug
+53230*?*Allow custom error mapping when Manager maxActiveSessions is exceeded*?*Bug
+53354*?*filtermapping doesn find the WebFilter filterName*?*Bug
+53339*?*ClassNotFoundException when using WebSocketServlet*?*Bug
+53008*?*New test case for Basic Authenticator*?*Bug
+53337*?*IllegalStateException when trying to render JSP after startAsync*?*Bug
+53301*?*Servlet init method called twice with embedded Tomcat*?*Bug
+53285*?*Web app configuration fails when securityroleref does not contain rolelink*?*Bug
+53342*?*If starting immediately after Tomcat stop fail BindException will throw*?*Bug
+53225*?*IllegalStateException zip file closed with resource from webfragment jar if JreMemoryLeakPreventionListener is removed*?*Bug
+53169*?*patch don do chunking with Connection close*?*Bug
+53322*?*Odd decapitalization when inferring JavaBean property from setter name for an injection target*?*Bug
+53180*?*DefaultInstanceManager populateAnnotationsCache incomplete check is used when validating for setter method*?*Bug
+53081*?*WebappClassLoader causes java lang OutOfMemoryError in findResourceInternal*?*Bug
+53090*?*Servlet superclass injection targets are ignored*?*Bug
+53074*?*websocket java net SocketTimeoutException Read timed caused by server xml connectTimeout*?*Bug
+53254*?*Support for purging connection pool*?*Bug
+53067*?*WebSocket implementation issue with wrapped requests*?*Bug
+53063*?*Inconsistency in documentation regarding Connector maxConnections property*?*Bug
+53087*?*BackupManager does not replicate session access time*?*Bug
+53056*?*Add APR version number to tcnative version INFO log message*?*Bug
+50864*?*Reconfigure pool on the fly using JMX*?*Bug
+52998*?*Performance issue with ExpressionFactory newInstance*?*Bug
+53001*?*Behaviour of ResourceBundleELResolver*?*Bug
+52974*?*NameNotFoundException is thrown when field method is annotated with Resource annotation*?*Bug
+52833*?*NPE with*?*Bug
+52066*?*ConnectionPool borrowConnection swallows interrupt state*?*Bug
+52957*?*ClassCastException while removing Valve*?*Bug
+52839*?*New unit test for DigestAuthenticator and SingleSignOn*?*Bug
+50860*?*In case of invalid or empty slqQuery connection are always invalidated without usefull information*?*Bug
+51893*?*JMX notification Exception for empty exhausted connection pool*?*Bug
+51237*?*SlowQueryReport interceptor does not log anything*?*Bug
+52926*?*NPE in processSocket*?*Bug
+52723*?*An incomplete fix for the resource leak bugs in StandardManager java*?*Bug
+52850*?*Various miscellaneous fixes to Tomcat Memory Leak Detection code*?*Bug
+52776*?*Generator JspFragment invoke implementation does not reset ELContext JspContext class*?*Bug
+52500*?*Improve client certificate authentication*?*Bug
+52719*?*An incomplete fix for the resource leak bug in WebappClassLoader java*?*Bug
+52792*?*Incomplete error message when lookup resource that is not bound in the naming*?*Bug
+52772*?*JspC checking uriRoot option validness*?*Bug
+52770*?*Potential Bug or Inconsistency in NioBlockingSelector java*?*Bug
+52767*?*Potential Bug or Inconsistency in JDBCRealm java and JDBCAccessLogValve java*?*Bug
+52846*?*Programmatic login using UserDatabaseRealm returns error*?*Bug
+52732*?*An incomplete fix for the resource leak bug in ExpressionFactory java*?*Bug
+52731*?*An incomplete fix for the resource leak bug in JDTCompiler java*?*Bug
+52729*?*An incomplete fix for the resource leak bug in CometConnectionManagerValve java*?*Bug
+52727*?*An incomplete fix for the resource leak bug in HostConfig java*?*Bug
+52726*?*An incomplete fix for the resource leak bug in MemoryUserDatabase java*?*Bug
+52725*?*org apache jasper compiler JspUtil getTagHandlerClassName does not use org apache jasper Constants TAG FILE PACKAGE NAME*?*Bug
+52724*?*An incomplete fix for the resource leak bugs in Catalina java*?*Bug
+52804*?*Make PoolProperties implement Cloneable*?*Bug
+52760*?*Mime type for javascript incorrect in documentation*?*Bug
+52758*?*Jasper illegally implements org eclipse jdt internal compiler env ICompilationUnit from Eclipse*?*Bug
+52671*?*NIO Connector Exception invoking method readBufSize writeBufSize in the JMX Proxy Servlet*?*Bug
+52669*?*Annotation processing in WEBINF classes for Servlets Listeners Filters is skipped when the web app is not extracted classes do not have packages and for some embedded scenarios*?*Bug
+52666*?*EL should coerce String to Integer in equals operation*?*Bug
+52607*?*It is not well defined how Dependencies on extensions mechanism can be used in Tomcat*?*Bug
+52606*?*FORM authentication POST replay broken for AJP*?*Bug
+52591*?*UnsupportedOperationException logged when fetching BasicDataSource loginTimeout*?*Bug
+52586*?*When requests are forwarded the request attribute javax servlet forward path info is assigned an incorrect value*?*Bug
+52577*?*Response output written in filter can be truncated*?*Bug
+52587*?*NPE in authenticator when no realm resource is defined*?*Bug
+52444*?*Classloadingbased ServletContainerInitializer HandlesTypes processing can result in long startup times*?*Bug
+52547*?*incorrect byeswritten log after completed async request under http*?*Bug
+52543*?*Exception*?*Bug
+52511*?*Exception logged in annotation scanning for web apps without WEBINF classes*?*Bug
+52474*?*Do not load listeners declared with blank spaces on tld file*?*Bug
+51408*?*String getBytes and new String byte use default charset may cause problems in some Locales*?*Bug
+52480*?*TC AntCompiler problems with whitespace in pathname*?*Bug
+38216*?*Extend Jmxproxy to allow call of MBean Operations*?*Bug
+52461*?*java lang IllegalArgumentException URI scheme is not file is thrown in ContextConfig getDefaultWebXmlFragment*?*Bug
+52445*?*Methodexpression with arguments fails on nested properties*?*Bug
+52443*?*Tomcat defaultRealm shares Realm instance between web applications resulting in INFO log message from lifecycle*?*Bug
+52245*?*Add detection of EL Jar to WebappClassLoader*?*Bug
+52440*?*Wrong getValueReference behaviour with Facelets parameter expressions*?*Bug
+52328*?*Massive garbage production observed when using the response writer*?*Bug
+52387*?*org catalina tomcat startup Tomcat silence method doesn use the host where we add the applications*?*Bug
+52326*?*Lower log level for failed class loading*?*Bug
+52316*?*AccessLog does not log size for files sent with sendfile*?*Bug
+52303*?*NonLoginAuthenticator does not honour session timeout with SingleSignOn Valve*?*Bug
+52384*?*URL parameter without value should be parsed successfully when logging level DEBUG*?*Bug
+52356*?*Prevent potential data races on org apache catalina tribes transport bio util FastQueue size*?*Bug
+52354*?*Protect concurrent accesses to field org apache catalina tribes transport bio util FastQueue inRemove*?*Bug
+52213*?*Field org apache catalina tribes transport bio util FastQueue enabled should be volatile*?*Bug
+52293*?*antiResourceLocking and unpackWARs*?*Bug
+52321*?*coda prelude order not respected*?*Bug
+52208*?*NullPointerException in tribes transport nio NioReceiver listen in test run*?*Bug
+52028*?*Embeded Tomcat using Connector with random port port*?*Bug
+52225*?*Adding Alias for existing host on running Tomcat causes ClassCastException*?*Bug
+52173*?*Add drop of additional clarification to doc on the delegate setting of the WebappClassLoader*?*Bug
+50570*?*Allow explicit use of FIPS mode in APR lifecycle listener*?*Bug
+52156*?*ServletContext getResource path doesn accept anymore*?*Bug
+52113*?*Tomcat reports missing context xml at wrong location on JMX deployment*?*Bug
+52051*?*NullPointerException when Jasper tries to compile directory*?*Bug
+52009*?*NPE exception in org apache catalina connector CoyoteAdapter service*?*Bug
+51972*?*sendRedirect does not support protocol relative URLs*?*Bug
+51952*?*IllegalStateException using CompressionFilter with Tomcat*?*Bug
+51956*?*RemoteAddrFilter uses remote host not address in doFilterEvent*?*Bug
+51630*?*java lang IllegalStateException Calling asyncComplete*?*Bug
+51910*?*NPE in comet processing when shutting down Tomcat*?*Bug
+51905*?*Infinite loop when shutting down AprEndpoint*?*Bug
+51872*?*request getRemoteAddr sometimes returning IP address from the previous request*?*Bug
+51887*?*Speedup sessionid generation when running testsuite*?*Bug
+51860*?*HTTP SSL with NIO won work*?*Bug
+51852*?*BeanELResolver varargs handling is broken in multiple ways*?*Bug
+51580*?*Severe error deploying WAR application ExpandWar error*?*Bug
+51687*?*Improve JreMemoryLeakPreventionListener against leak caused by sun java Disposer*?*Bug
+51811*?*SSL configuration property name illegal*?*Bug
+51794*?*Race condition in NioEndpoint Poller causes socket to not be read until selectorTimeout*?*Bug
+51698*?*ajp CPing ForwardRequest packet forgery is design decision or security vulnerability*?*Bug
+51739*?*If landingpage is XHTML JSF CDI nullpointer exception*?*Bug
+51712*?*Regression in cachecontrol headers for requests with securityconstraints*?*Bug
+51736*?*Make rpcTimeout configurable in BackupManager*?*Bug
+51704*?*Dubious use of mkdirs return code in juli FileHandler*?*Bug
+51558*?*Tomcat Embedded using tomcat addWebapp always overrides programmatic contextsettings with default values for the context at start of tomcat server*?*Bug
+51713*?*Bad Connector protocol causes NullPointerException when using Executor*?*Bug
+51688*?*JreMemoryLeakPreventionListener should protect against AWT thread creation*?*Bug
+49683*?*Separate keepalive and connection timeout with APR native connector*?*Bug
+51658*?*Potential NPE in CoyoteAdapter log*?*Bug
+51654*?*NullPointerException in startup org apache catalina startup HostConfig filterAppPaths due to missing app base*?*Bug
+51650*?*possible nullpointer exception in RequestUtil parseParameters*?*Bug
+41673*?*Jasper output the message of compiling error using LF \n on ANY OS*?*Bug
+51644*?*Unable to deploy applications with the name xml*?*Bug
+51640*?*clearReferencesJdbc seems to be causing leaks with com oracle ojdbc driver*?*Bug
+51641*?*Http NioProcessor not correct release*?*Bug
+51615*?*Line of org apache tomcat jdbc pool PooledConnection double assignment typo*?*Bug
+51610*?*Context fails to reload after an error in web xml was corrected*?*Bug
+51614*?*PersistentManager loads session from Store and calls session expire twice*?*Bug
+51588*?*Change access modifiers in AccessLogValve to make it easier to extend*?*Bug
+51586*?*ContextConfig checkHandlesTypes doesn check for VerifyError when loading class*?*Bug
+51557*?*Newline during http header field name obscures next value*?*Bug
+51545*?*make threadname available in ExtendedAccessLogValve*?*Bug
+51555*?*An invalid Lifecycle transition before stop for component in state INITIALIZED MapperListener*?*Bug
+41709*?*When calling the API that relates to the buffer after the response is committed ISE with no messages is thrown*?*Bug
+51056*?*Disable drop support for SSLv*?*Bug
+51532*?*Performance Issue when retriving JAR files during TLD file parsing*?*Bug
+51509*?*Csrf Prevention Filter LruCache is not thread save*?*Bug
+51518*?*absoluteordering name others should not include name element*?*Bug
+49595*?*Tomcat crashes in tcnative dll frequently*?*Bug
+51503*?*Additional error checking required for connector port attribute for port*?*Bug
+51477*?*Support all protocol combinations in SSLProtocol of APR Connector*?*Bug
+46252*?*Tomcat access log doesn support Unicode*?*Bug
+51494*?*NPE in StandardContextValve invoke when webapp is redeployed while request is still being processed*?*Bug
+51475*?*GzipInterceptor decompress is not completly implemented*?*Bug
+51473*?*SecurityConfig set package definition security property to nullsun java*?*Bug
+51467*?*usage of method run instead of start to start thread*?*Bug
+51466*?*typos in comments of HostManagerServlet*?*Bug
+51453*?*Requests to open URL that include an Authorization header do not reach servlet*?*Bug
+51088*?*ArrayIndexOutOfBoundsException from org apache el parser JJTELParserState*?*Bug
+51436*?*ServletRequestListener fails to access request parameters when an ExpectHeader is sent*?*Bug
+50353*?*Calling asyncContext getResponse returns null after async timeout*?*Bug
+51447*?*Session type changes from Backup to Primary*?*Bug
+51418*?*Allow more flexibility in adding webapps to org apache catalina startup Tomcat*?*Bug
+51403*?*Avoid NullPointerException in JULI FileHandler if formatter is misconfigured*?*Bug
+51401*?*java lang IllegalArgumentException sessionconfig element is limited to occurrence*?*Bug
+51396*?*Embedding class cannot launch webapp with jsp servlet*?*Bug
+49165*?*Enhancement Allow TIME FORMAT As Configuration for AccessLogValve*?*Bug
+51386*?*HandlingType not correctly handled at server startup leads to incorrect classes set passed to initializers*?*Bug
+48956*?*SSI regular expressions not working*?*Bug
+43538*?*patch Show the hostname and IP address in the manager webapp*?*Bug
+51306*?*NPE in DeltaRequest writeExternal DeltaRequest java when handling remote session expiration*?*Bug
+51348*?*Potential NullPointerException in org apache catalina servlets WebdavServlet at line*?*Bug
+51344*?*org apache catalina startup Embedded overrides Lifecycle incorrectly*?*Bug
+51340*?*Intermittent java lang IllegalArgumentException sessionconfig element is limited to occurrence*?*Bug
+51324*?*When OutputBuffer doFlush gets Exception doFlush gets stuck to true*?*Bug
+51251*?*Patch to add version parameter to ant task*?*Bug
+51276*?*Startup time is too high if there are few JARs in lib and few webapps*?*Bug
+51277*?*NPE during the form authentication when formloginconfig is missed*?*Bug
+51240*?*maxConnections not honors config when acceptorThreadCount*?*Bug
+51226*?*Patch to add FindLeaks ant task*?*Bug
+27122*?*IE plugins cannot access components through Tomcat over SSL*?*Bug
+51185*?*Performance DataSourceProxy createPool should use more fine grained synchronisation*?*Bug
+35054*?*warn if appBase is not existing as File or directory*?*Bug
+51220*?*Add system property that makes it possible for jsp pages with the extends page directive to take advantage of tag pooling*?*Bug
+51229*?*Some async examples are not work correctly*?*Bug
+51212*?*QueryStats has synchornisation issues*?*Bug
+51208*?*SVN TRUNK JDBC interceptor options are not taken into account*?*Bug
+51156*?*Expire sessions button not visible for context configured in server xml*?*Bug
+51155*?*Missing deprecated comments*?*Bug
+51154*?*Spurious deprecated tags in ServletContext*?*Bug
+50950*?*NotSerializableException org apache catalina realm GenericPrincipal*?*Bug
+51099*?*SPNEGO loginConfigName does not work*?*Bug
+51119*?*extras JmxRemoteLifecycleListener does not support JAAS based authentication and authorisation*?*Bug
+51124*?*ArrayIndexOutOfBoundsException after setting org apache jasper runtime BodyContentImpl LIMIT BUFFER true*?*Bug
+51136*?*Allow to set the context name through Tomcat embeded class before adding it to the host*?*Bug
+51095*?*NPE in AprEndpoint java*?*Bug
+50173*?*JDBCSampler discards ResultSet from PreparedStatement*?*Bug
+51042*?*HttpSessionListener sessionCreated is called second time when user is authenticated with no matching sessionDestroyed call*?*Bug
+51038*?*No access logs for Servlet async requests*?*Bug
+50997*?*StandardJarScanner ignores webfragment xml files in unpacked jars if they are not ending with jar*?*Bug
+50927*?*patch More specific error message for missing SSLCertificateFile*?*Bug
+50929*?*patch Ensure rethrown exceptions retain the original cause*?*Bug
+50903*?*Current keepalive request processed after connector stop*?*Bug
+50887*?*Enhancement to set securityprovider within AjpAprProcessor*?*Bug
+50895*?*JSP compiler initializes classes during compile which can result in failures*?*Bug
+25060*?*Reloading context orphans currently open jndi datasource connections*?*Bug
+26701*?*Enabling web applications to register their own stream handlers*?*Bug
+50855*?*NullPointerException thrown in AuthenticatorBase register method for null principal*?*Bug
+50857*?*Test failures on Windows thread system*?*Bug
+27988*?*Unhelpful FileNotFoundException raised*?*Bug
+28852*?*failonerror attribute on Ant tasks*?*Bug
+31027*?*major error from minor whitespace error in properties file*?*Bug
+50836*?*LifecycleState isAvailable to be more restrictive*?*Bug
+49284*?*Implement SSL renegotiation for the NIO connector*?*Bug
+50826*?*Embedded Tomcat destroy throws java lang IllegalArgumentException*?*Bug
+21669*?*JNDIRealm roleBase pattern enahncement*?*Bug
+19444*?*JNDI Authentication roles must be anonymous accessible*?*Bug
+50189*?*AJP connector sends GET BODY CHUNK when reading after response closed*?*Bug
+50802*?*Deviation from servlet spec concerning resource lookup from METAINF resources*?*Bug
+50780*?*AjpConnectionHandler keeps many connections causing memory leak*?*Bug
+50789*?*custom error pages and CDI weld problem*?*Bug
+50790*?*EL parser needs to be more dynamic*?*Bug
+50793*?*Invalid DispatchType in ServletRequestListener on async dispatch*?*Bug
+50713*?*The roles command doesn work*?*Bug
+50700*?*Context parameters are being overridden with parameters from the web application deployment descriptor*?*Bug
+50771*?*HttpServletRequest getAuthType returns null though the request is authenticated*?*Bug
+50726*?*Jasper can generate uncompilable source code if genStringAsCharArray is turned on*?*Bug
+50759*?*ValidatorClassName Validation fails to set lastValidated timestamp*?*Bug
+50751*?*JNDIRealm invokes getAttributes with no attribute ids Prevents using DOMAIN\ to login*?*Bug
+50752*?*Typo in Embedded java log message*?*Bug
+50720*?*When using jsp mapped as servlet in web xml cyrillic characters are not allowed in web xml*?*Bug
+50721*?*RequestUtil URLDecode throws IllegalArgumentException for URLs with xxCode as last character*?*Bug
+50709*?*Make class org apache catalina core ApplicationContextFacade nonfinal*?*Bug
+50673*?*Error when stopping Tomcat using services msc*?*Bug
+50631*?*InternalNioInputBuffer should honor maxHttpHeadSize*?*Bug
+50325*?*Update Tomcat to use JRE provided solutions for CVE if available*?*Bug
+50683*?*Servlet annotations not scanned if unpackWars false*?*Bug
+46819*?*Remove redundant object instantiations in JspRuntimeLibrary*?*Bug
+50680*?*NPE in TagFileProcessor when tag file is in an expanded directory jar*?*Bug
+50679*?*FarmDeployer doesn support parallel deployment*?*Bug
+50642*?*keepAliveProtection doesn work*?*Bug
+50646*?*Tribes ByteMessage will get corrupted if message size exceeds the underlying buffer size*?*Bug
+50629*?*Make the bindThread unbindThread method protected*?*Bug
+50620*?*Session related errors prevent clean recycle of Request and Response objects by CoyoteAdapter*?*Bug
+50606*?*Error running CGI executable in Tomcat*?*Bug
+50613*?*ConnectionPool size corruption when evictions enabled*?*Bug
+50601*?*Redundant null checks before instanceof in equals*?*Bug
+50598*?*Sample build xml uses wrong manager url*?*Bug
+50597*?*Class newInstance is used for Dynamic instance filters causing InstantiationException*?*Bug
+50600*?*ConcurrentModificationException removing WAR via FarmWarDeployer*?*Bug
+50582*?*Small JSPs do not set ContentLength and use chunked encoding if AccessLogValve is configured*?*Bug
+50591*?*NPE in ReplicationValve in*?*Bug
+18797*?*MemoryUserRule doesn validate user attributes*?*Bug
+18462*?*System err gets overriden to output to System out*?*Bug
+15688*?*fullqualified names instead of imports*?*Bug
+50333*?*IllegalArgumentException occurs when setting maxActive to smaller than*?*Bug
+49953*?*Missing Override annotations*?*Bug
+21157*?*CookieExample is setting cookie after writing data*?*Bug
+50552*?*Ant Tasks give null pointer exception when an error occurs masking true error*?*Bug
+50554*?*Bad use of getClass could potentially lead to concurrency bugs in future*?*Bug
+50477*?*If you set to initialSize can obtain Connection by using getConnectionAsync method*?*Bug
+49543*?*Request for shared datasource configuration as in DBCP*?*Bug
+50550*?*PropFind error after MkCol succes*?*Bug
+47319*?*With APR getRemoteHost returns NULL for unknown clients*?*Bug
+50547*?*The CHANGE SESSION ID message that received during cluster session synchronization is dropped*?*Bug
+50453*?*Multiple XForwardedFor headers not handled by RemoteIP valve*?*Bug
+50467*?*Occasional NIO connector lockups on high load*?*Bug
+50541*?*JNDIRealm support configuring LDAP sizeLimit countLimit in SearchControls*?*Bug
+50500*?*EL evaluation of floatingpoint String value vs BigInteger loses precision*?*Bug
+50025*?*getConnection method in class DataSourceProxy is ignoring credentials*?*Bug
+50503*?*Engine level Clustering does not work correctly if the web application has version*?*Bug
+13731*?*Final request response session and other variables*?*Bug
+10972*?*Realm without className in server xml produces NullPointerException*?*Bug
+10526*?*Authenticators do not always cache the Principal*?*Bug
+49125*?*toString on byte array probably is not correct*?*Bug
+50460*?*First access to jspx page causes classloader leak in JspDocumentParser*?*Bug
+50448*?*StandardSession expire causes IllegalStateException getCreationTime Session already invalidated*?*Bug
+50408*?*Scoped EL variable in methodexpression is treated as Object*?*Bug
+48692*?*Provide option to parse application xwwwformurlencoded PUT requests*?*Bug
+50358*?*Embedded stopInternal sets state to STARTING should be STOPPING*?*Bug
+49142*?*Missing serialVersionUIDs*?*Bug
+48837*?*Memory leaks protection does not detect leaks triggered by JSP pages code*?*Bug
+50108*?*Add missing setter getter to AbstractXXXProtocol*?*Bug
+50207*?*CometProcessor async timeout events are not being fired*?*Bug
+50316*?*Minor glitch with display of negative TTL on sessionDetail jsp*?*Bug
+50308*?*Call to AsyncContext dispatch in the onTimeout callback throws exception*?*Bug
+50310*?*Manager detailed status page does not display servlets*?*Bug
+50293*?*javax el CompositeELResolver synchronization issue*?*Bug
+50192*?*performance issue after revision*?*Bug
+50230*?*Recursive dependency between the tomcatcatalinaha and tomcatcatalina*?*Bug
+50252*?*ClassCastException occurs if context xml contains ResourceLink*?*Bug
+50183*?*Tribes Bio Sender is not scheduling the task to the excecutors*?*Bug
+50169*?*Trying to register wrapper and welcomeFile to Mapper before context is registered on Mapper*?*Bug
+50222*?*JreMemoryLeakPreventionListener should speculatively cause memory leaks using the system ClassLoader*?*Bug
+50184*?*RpcChannel sends the answer without requesting an ACK*?*Bug
+50232*?*org apache catalina session StoreBase has hidden dependency on PersistentManager*?*Bug
+50168*?*destory method is called twice while the child is destoryed directly*?*Bug
+50127*?*Possible NPEs in SimpleTCPCluster*?*Bug
+49180*?*Add option to disable log rotation in FileHandler*?*Bug
+50157*?*lot of MapperListener is registered as ContainerListener of StandardContext*?*Bug
+50129*?*ContextConfig unnecessary null checks*?*Bug
+50138*?*Lack of synchronization in org apache catalina security SecurityUtil*?*Bug
+50107*?*StandardPipeline is destroyed two times*?*Bug
+50105*?*Violation of JSPEL spec version when coerce Enum to String*?*Bug
+49426*?*Manager app wrongly localized*?*Bug
+50087*?*When metadatacomplete false throw illegal JVM CONSTANT Class name*?*Bug
+50066*?*Cannot compile recursive tag with ant if it uses class from the webapp*?*Bug
+50063*?*Latest trunck can configure context when metadatacomplete is true and version is*?*Bug
+50027*?*NullPointerException if context xml is present with Resource*?*Bug
+50059*?*Resources are not served from WEBINF lib jar METAINF resources if metadatacomplete true is set in web xml*?*Bug
+50017*?*Make private immutable fields final*?*Bug
+50016*?*bad division of responsibility around isUserInRole and new Request login and logout methods*?*Bug
+49987*?*Data race in ApplicationContext*?*Bug
+49986*?*Doublecheck locking Possible datarace in JspServletWrapper*?*Bug
+49972*?*Doublecheck idiom Possible datarace*?*Bug
+50054*?*When the AJP connector is used minSpareThreads cannot be used*?*Bug
+49956*?*Resource name Normalization of JNDI Name*?*Bug
+49952*?*ServletContainerInitializer can actually add listeners*?*Bug
+49937*?*Problems with AsyncListener and resource injection*?*Bug
+49985*?*Lazy initialization without any synchronization data race in AstInteger AstFloatingPoint AstString*?*Bug
+49915*?*Patch StandardServer swallows error on storeConfig*?*Bug
+49905*?*In cluster when using DeltaManager memory leak can occur*?*Bug
+49890*?*Nio Selector issue on linux platform*?*Bug
+49861*?*Log format of RMI ports can be improved remove*?*Bug
+49667*?*JdbcLeakPrevention class can register unregistered JCBC Driver*?*Bug
+49856*?*Connector ThreadPool link to Executor not exposed via JMX*?*Bug
+49730*?*Race condition in StandardThreadExecutor requests are sometimes enqueued instead of creating new threads*?*Bug
+50021*?*ExceptionUtils class missing from bootstrap jar*?*Bug
+50018*?*Javadoc corrections*?*Bug
+49195*?*Using as shutdown port with Windows service works but prints error message*?*Bug
+49665*?*When file not found error occurs it does not tell you which file caused the error*?*Bug
+49625*?*Tomcat doesn send Vary consistently when gzip enabled*?*Bug
+49209*?*AccessControlException when undeploying application*?*Bug
+49102*?*coyote ajp Constants constant arrays are mutable*?*Bug
+49909*?*jstl not support*?*Bug
+49924*?*When nonprimary node changes into primary node isPrimarySession is not changed to true*?*Bug
+49234*?*JMX Descriptor Modifications*?*Bug
+49892*?*Wrong JNDI Name for Method Resource Injections*?*Bug
+49831*?*Issue with closing XAConnections on MSSQL*?*Bug
+49883*?*java lang UnsupportedOperationException The getName method should never be called*?*Bug
+49802*?*Shutdown of AJP Connector do not work*?*Bug
+49876*?*correcting generics related compile warning in org apache tomcat util bcel classfile files*?*Bug
+49869*?*Javadoc for WebAppClassLoader constructor has copy paste error*?*Bug
+48967*?*Externalize Strings catalina base and catalina home*?*Bug
+49749*?*SSO cookie should be added as HttpOnly*?*Bug
+48738*?*PATCH Allow GzipOutputFilter to send partial result when flushBuffer is called*?*Bug
+49670*?*org apache catalina authenticator SingleSignOn valve does not function*?*Bug
+49721*?*Fail to access the resources such as jsp files from jar file which is supported by servlet*?*Bug
+49726*?*JSP new configuration element defaultcontenttype under jsppropertygroup works incorrectly on tomcat trunk*?*Bug
+49750*?*WebappClassLoader validate name does not validate javax servlet*?*Bug
+49758*?*Patch Generics warnings rawtypes*?*Bug
+49757*?*correcting some generics related warnings*?*Bug
+49714*?*The annotation process of Jar should not impact distributable of web xml*?*Bug
+49655*?*ExpressionFactoryImpl createMethodExpression is not EL Spec conform*?*Bug
+49407*?*backup manager reports too few current sessions*?*Bug
+49613*?*Request getAttributeNames slows down some applications*?*Bug
+49567*?*when starting new thread from startAsync Runnable an infinite amount of doPosts is generated*?*Bug
+49617*?*Fix ExpiresFilter docs remove remaining ExpiresActive reference*?*Bug
+48998*?*Proposal port mod expires in java as ExpiresFilter Servlet Filter*?*Bug
+49127*?*SimpleTcpReplicationManager startInternal ignores Exception*?*Bug
+49128*?*loader WebappClassLoader start ignores Exception*?*Bug
+48960*?*SSI Servlet should support safe configuration*?*Bug
+49442*?*Make StringManager fields final*?*Bug
+49478*?*Add encoding parameter to AddDefaultCharSetFilter*?*Bug
+49570*?*The CompressionFilter example should support HTTP proxies to cache gzipped content better by sending Vary AcceptEncoding header*?*Bug
+49503*?*Connectors do not bind to their ports in Catalina load but only later in start*?*Bug
+49551*?*When setting absolute path to default context xml in ContextConfig contextConfig it cannot be found*?*Bug
+49550*?*PATCH Response class fix isSpace deprecated isWhiteSpace*?*Bug
+49530*?*Context is not correctly stopped at shutdown*?*Bug
+49536*?*If no webapps deployed accessing URL returns OK with no content instead of*?*Bug
+49525*?*IE Unabled to store data in HttpSession root context*?*Bug
+49522*?*Complete Server status status all causes stack trace*?*Bug
+49476*?*Cannot expire selected session in Manager webapp*?*Bug
+49443*?*RemoteIpValve remoteIpHeader vs remoteIPHeader*?*Bug
+49445*?*After session ID is changed on authentication the session replication does not work*?*Bug
+49376*?*Minor corrections to info properties*?*Bug
+48971*?*memory leak protection stopping TimeThreads should be optional and disabled by default*?*Bug
+49360*?*Context class reload fails for PersistentManager*?*Bug
+49340*?*Webapp unavailable after deploy then stop then start*?*Bug
+49299*?*Servlet ch says that custom cookie name affects URL rewriting*?*Bug
+49290*?*Using JarScanner with scanAllDirectories true causes Tomcat not to start*?*Bug
+49221*?*javax servlet http Cookie setDomain uses default charset*?*Bug
+49224*?*NullPointerException in PooledConnection when username or password are null*?*Bug
+49226*?*toLowerCase toUpperCase may not work OK in all Locales*?*Bug
+49227*?*toLowerCase toUpperCase may not work OK in all Locales*?*Bug
+49228*?*toLowerCase toUpperCase may not work OK in all Locales*?*Bug
+49235*?*ServletContainerInitializer onStartup Set Class classSet is not expect class*?*Bug
+49240*?*Error thrown during detection of ServletContainerInitializer*?*Bug
+49269*?*Shouldn see maxIdle maxActive message with default props*?*Bug
+49241*?*DataSourceFactory parsePoolProperties doesn look for suspectTimeout*?*Bug
+49092*?*util IntrospectionUtils PATH SEPARATOR should be final*?*Bug
+49207*?*Filter name not set when dynamically added*?*Bug
+49184*?*Index out of bounds exception thrown when dynamically adding Filter*?*Bug
+48689*?*Jar abstraction for Jasper*?*Bug
+49140*?*Inefficient use of keySet iterator in StandardContext java*?*Bug
+49143*?*Possible incorrect lazy initialisations*?*Bug
+49144*?*Incorrect lazy initialization and update of static fields*?*Bug
+49164*?*junit test ignores failures in threads*?*Bug
+49171*?*Avoid raw type warning in TagSupport*?*Bug
+49170*?*Transmission of duplicated session in DeltaManager handleGET ALL SESSIONS*?*Bug
+43642*?*Add prestartminSpareThreads attribute for Executor*?*Bug
+49141*?*Impossible cast in naming factory SendMailFactory getObjectInstance*?*Bug
+49151*?*ClassCastException in BackupManager stopInternal*?*Bug
+49150*?*All primary sessions are deleted at BackupManager stopInternal*?*Bug
+49129*?*DigestAuthenticator md Helper possible incorrect lazy initialisation*?*Bug
+49118*?*Inefficient use of String concatenation in loop*?*Bug
+49110*?*runtime JspFactoryImpl PageContextPool needs to be static*?*Bug
+49109*?*RealmBase authenticate uses toString on byte array*?*Bug
+49106*?*Unused imports*?*Bug
+49105*?*Javadoc corrections*?*Bug
+49104*?*Fix up some raw types*?*Bug
+49103*?*Missing annotations*?*Bug
+49045*?*JMX Enhancement Provision of MBeanFactory createStandardService*?*Bug
+49089*?*ChannelData USE SECURE RANDOM FOR UUID public static mutable field*?*Bug
+49116*?*Memory leak by HttpSession*?*Bug
+49086*?*Addition of Javadoc for Servlet annotations*?*Bug
+49091*?*Util specialCharactersRepresentation should be private*?*Bug
+49075*?*protected Class User doesn check argument roles for null*?*Bug
+49018*?*Timeout argument misprocessed when expiring sessions from Tomcat Manager*?*Bug
+48648*?*Blank page dropped connection when running TC with TCnative APR*?*Bug
+49014*?*Add RemoteIpFilter test case*?*Bug
+48983*?*Enhance RemoteIpValve and RemoteIpFilter logging*?*Bug
+48895*?*WebAppClassLoader clearThreadLocalMap concurrency issues*?*Bug
+48717*?*Session listeners not called on cluster node start*?*Bug
+48662*?*context xml expansion on deployment improvements*?*Bug
+48934*?*Cluster regression When replication fails once replication can be never done again*?*Bug
+44265*?*Improve JspWriterImpl performance with inline sub method*?*Bug
+48760*?*Tomcat breaks in serving large files MB under high load and high threading*?*Bug
+48737*?*JspCompilationContext assumes that tagfile with path starting with METAINF are in jars without checking*?*Bug
+48729*?*JNDIRealm java not parsing roles correctly*?*Bug
+48661*?*inconsistent error page behavior*?*Bug
+48582*?*JspServletWrapper getServletContext throws NullPointerException*?*Bug
+48580*?*AccessControlException in ProtectedFunctionMapper on first access to certain JSP*?*Bug
+48498*?*RC ArrayIndexOutOfBoundsException from Jasper when compilation error inside CDATA block*?*Bug
+48384*?*globalXsltFile parameter for the DefaultServlet*?*Bug
+48371*?*addWebXmlMappings does not place servlet tags correctly*?*Bug
+48318*?*WebDAV servlet returns if files not readable*?*Bug
+48726*?*DeployTask throws OutOfMemoryErrors when deploying large WAR files*?*Bug
+48170*?*Unnecessary synchronization by JspFactory getDefaultFactory contributes to stability problems*?*Bug
+48109*?*Improve binaryStream processing in WebappClassLoader findResourceInternal*?*Bug
+48665*?*RemoteIpValve examples refer to connector package*?*Bug
+48643*?*catalina session FileStore save and load close bugs*?*Bug
+48678*?*org apache catalina startup Catalina incorrectly duplicates super class member*?*Bug
+48551*?*StringCache Use entrySet rather than keySet get*?*Bug
+48653*?*RemoteIpValve request secure and request scheme are not forced to false and http if XForwardedProto http*?*Bug
+48647*?*RemoteIpFilter request secure and request scheme are not forced to false and http if XForwardedProto http*?*Bug
+48645*?*RequestUtil URLDecode byte bytes String enc*?*Bug
+48516*?*NullPointerException in JNDIRealm*?*Bug
+48004*?*setHeader does not replace the previous value for Server*?*Bug
+48421*?*JULI webapp logging files will not closed when webapp is stopped reloaded or undeployed*?*Bug
+48523*?*Duplicate property keys in various files*?*Bug
+48517*?*SuppressWarnings unchecked document and reduce scope*?*Bug
+48112*?*Closing curly brace in literal string incorrectly treated as expression terminator*?*Bug
+48424*?*Keep same logic for creating the objectnames for connector mbeans*?*Bug
+48006*?*Implement the header XPoweredBy suggested by the servlet specification*?*Bug
+43819*?*Support latest JSR proposal to make EL selfcontained*?*Bug
+48345*?*Session does timeout shorter than setting in web xml when PersistentManager is used*?*Bug
+48454*?*Bad file descriptor IOException in CGIServlet for some programs*?*Bug
+48443*?*when the context path is empty tomcat will startup with FileNotFoundException*?*Bug
+48399*?*Lock fields should be final*?*Bug
+47930*?*PersistentManager using filestore can return different session objects linked to the same session ID when Tomcat is restarted*?*Bug
+48387*?*Make RemoteIpFilter parameters consistent with RemoteIpValve*?*Bug
+47744*?*Memory leak when using SSL Java security manager*?*Bug
+47537*?*Empty response when forward to login page fails*?*Bug
+48373*?*Can not get clients from TomcatBayeux*?*Bug
+48370*?*PublishRequest java can not be compiled*?*Bug
+48324*?*Javadoc fixes for connector Request java*?*Bug
+47502*?*clustering fails on serializing javax security auth subject*?*Bug
+48296*?*Generics fixes*?*Bug
+47342*?*ReplicatedContext start throws NullPointerException*?*Bug
+48289*?*ElSupport Javadoc and generics fixes*?*Bug
+48288*?*Patch to fix generics in javax el package helpers*?*Bug
+48287*?*ApplicationContextFacade generics fixes*?*Bug
+48285*?*ApplicationFilterFactory matchDispatcher fails to check ASYNC*?*Bug
+48282*?*Possible NPE in org apache tomcat util modeler Registry*?*Bug
+48267*?*Patch to fix generics in javax packages*?*Bug
+48266*?*Patch to fix generics in catalina*?*Bug
+47836*?*TldConfig keeps an internal list of ApplicationListeners*?*Bug
+48239*?*HexUtils exposes public array*?*Bug
+48248*?*tribes group interceptors MessageDispatchInterceptor run should be volatile*?*Bug
+48249*?*org apache tomcat util net NioBlockingSelector BlockPoller run volatile*?*Bug
+48049*?*org apache naming NamingContext destroySubcontext method doesn invoke itself recursively but invoke unbind method*?*Bug
+47799*?*Domain does not work in Membership and DomainFilterInterceptor*?*Bug
+47462*?*The annotation doesn become effective metadatacomplete false is not effective*?*Bug
+47997*?*NamingContextListener fails to add itself as PropertyChangeListener to all namingResources*?*Bug
+47718*?*ManagerBase leaks fd to dev urandom when context stopped*?*Bug
+48252*?*StackOverflowError in NioEndpoint setProperty when setting jkHome*?*Bug
+48234*?*org apache catalina core ContainerBase getLogger not threadsafe*?*Bug
+48172*?*JspRuntimeContext synch problems*?*Bug
+48197*?*XByteBuffer privatize public fields fix Javadoc*?*Bug
+48230*?*Unused imports*?*Bug
+48217*?*Loggers should be final*?*Bug
+48196*?*Public arrays that should be private*?*Bug
+48176*?*Fields that should be final*?*Bug
+48175*?*Loggers should be final*?*Bug
+48174*?*org apache tomcat jni Address APR ANYADDR should be final*?*Bug
+48173*?*org apache catalina tribes io ChannelData EMPTY DATA ARRAY should be final*?*Bug
+48151*?*Java files that don have AL headers*?*Bug
+48150*?*some misspellings found in the javax servlet package*?*Bug
+48149*?*some misspellings found in the org apache coyote package and org apache el package*?*Bug
+48148*?*some misspellings found in the org apache jasper package and org apache juli package*?*Bug
+48147*?*some misspellings can find in the org apache naming package*?*Bug
+48146*?*some misspellings can find in the org apache tomcat package*?*Bug
+48143*?*Javadoc fixes*?*Bug
+48139*?*Tomcat Javadoc and unthrown exception fixes*?*Bug
+48137*?*some misspellings can find in the org apache catalina package*?*Bug
+48135*?*ServiceRefFactory impossible null check of serviceInterfaceClass*?*Bug
+48133*?*misspellings in the javadoc and comment of the various classes in the package of org apache core*?*Bug
+48131*?*Add deprecated annotations to deprecated elements*?*Bug
+48123*?*misspellings in the javadoc of class org apache catalina startup WebRuleSet*?*Bug
+48121*?*misspellings in the javadoc of class org apache catalina startup TldConfig*?*Bug
+48120*?*one misspelling in the javadoc of class org apache catalina startup SetNextNamingRule*?*Bug
+48117*?*two misspellings in the javadoc of class org apache catalina startup ContextConfig*?*Bug
+48119*?*misspellings in the javadoc of class org apache catalina startup HostConfig*?*Bug
+48118*?*two misspellings in the javadoc of class org apache catalina startup Embeded*?*Bug
+46947*?*Code cleanup patch that removes some obsolete null checks*?*Bug
+48102*?*Bootstrap is misspelled as Boostrap in the javadoc of the class of org apache catalina startup Bootstrap*?*Bug
+48104*?*the javadoc of class org apache catalina startup Catalina is not complete as in the usage method*?*Bug
+47881*?*org apache catalina startup Bootstrap main method handles startd or stopd wrongly*?*Bug
+47331*?*No translation error messag when using in template text*?*Bug
+47451*?*NPE if response contains null contentencoding header*?*Bug
+47364*?*HttpServletRequest getAttributeNames does not return the names of all attributes*?*Bug
+48009*?*Editing context xml may cause unwanted undeploy of webapp*?*Bug
+48019*?*StackOverflowError on include*?*Bug
+40001*?*HTML pages should not use GET to restart webapps*?*Bug
+47320*?*Decoding jsessionid bug on os*?*Bug
+47499*?*provide better insight on BindException Cannot assign requested address*?*Bug
+47866*?*NullPointerException in embedded tomcat*?*Bug
+47225*?*Wrong argument in redirectPath setChars in Mapper internalMapWrapper*?*Bug
+47161*?*Manager ignores executors on status pages*?*Bug
+46950*?*SSL renegotiation does not occur when resource with CLIENTCERT auth is requested*?*Bug
+47828*?*Change Tomcat setSilent to setSilent boolean*?*Bug
+47820*?*Static utility methods in Tomcat should be instance methods*?*Bug
+47826*?*logging statement error in org apache catalina startup Bootstrap java*?*Bug
+47705*?*ArithmeticException by zero when expiring sessions via manager*?*Bug
+47378*?*welcomefile ignores servlet mapping*?*Bug
+47612*?*PATCH fix unsafe public string array in AbstractCreateStatementInterceptor*?*Bug
+47583*?*Fix occasional test failure in TestConcurrency*?*Bug
+47576*?*Javadoc errors Exception name misspelt*?*Bug
+47569*?*Test cases do not clear up afterwards*?*Bug
+47568*?*TestTomcat fails to delete work directory*?*Bug
+41824*?*Unable to use nested type in TLD*?*Bug
+46907*?*Jasper with log in webapp classpath and debug level enabled prevents reading HTTP POST stream from JSP*?*Bug
+47518*?*Valve Interface Javadocs for invoke method references nonexistent method*?*Bug
+41059*?*WebAppClassLoader clearReferences code break running threads*?*Bug
+40551*?*Sticky sessions using PersistentManager enter indeterminate state on node failover*?*Bug
+47515*?*Tomcat can replicate session when it is started*?*Bug
+40380*?*Potential syncro problem in StandardSession expire boolean*?*Bug
+47524*?*McastServiceImpl executor is not dispatching events*?*Bug
+39231*?*The JAAS contract for LoginModule is broken*?*Bug
+47478*?*DeltaSession ignores notifyListenersOnReplication when BackupManager is used*?*Bug
+37933*?*Bugs in Tomcat*?*Bug
+37984*?*JNDIRealm java not able to handle MD password*?*Bug
+47440*?*Remove DBspecific SQL statements from test cases SELECT*?*Bug
+47439*?*PooledConnection connect fails to check for null connection*?*Bug
+38352*?*Additional Entries for Default catalina policy file*?*Bug
+47308*?*Cannot join in the cluster membership*?*Bug
+47389*?*DeltaManager doesn do the session replication notifySessionListenersOnReplication false*?*Bug
+47369*?*DeltaRequest is never reset use BackupManager*?*Bug
+47343*?*Fails redeploying when we update context xml*?*Bug
+47299*?*Cannot override StandardContext in embedding case because of StandardSession fireContainerEvent*?*Bug
+47158*?*think AccessLogValve has race condition problem*?*Bug
+47216*?*Possible NPE in Http Processor action*?*Bug
+47234*?*serviceStartTime is different in MemberImpl from McastServiceImpl*?*Bug
+47111*?*do caching the resources like the docu say it StringManager*?*Bug
+47050*?*StandardHostValve status unnecessarily HTMLescapes the error message*?*Bug
+47046*?*Shutdown does not unregister all MBeans*?*Bug
+46925*?*Nested groups in JNDI realm with nonrecursive implementation*?*Bug
+37929*?*invalidated session causes pageContext methods to fail*?*Bug
+47013*?*JSP not compiled at startup when used as servlet*?*Bug
+42579*?*Patch JNDIRealm fails to parse absolute names*?*Bug
+46354*?*LIMIT BUFFER setting causes arraycopy errors*?*Bug
+46984*?*Server incorrectly reports error on bad method name Should report error*?*Bug
+46961*?*org apache catalina loader WebappClassLoader throws exception related to Java Bug*?*Bug
+46909*?*jsp plugin error*?*Bug
+46562*?*Reader not closed*?*Bug
+46998*?*small fix to TaskThreadFactory*?*Bug
+46997*?*small fix to TaskQueue*?*Bug
+46991*?*Bytes received problem*?*Bug
+46990*?*Synchronize target can be changed midway*?*Bug
+46988*?*JMXAccessorTask String constants should be final*?*Bug
+46986*?*org apache jasper Constants public arrays are mutable*?*Bug
+46967*?*ManagerBase setRandomFile error handling fix*?*Bug
+46958*?*manager XML interface hardcoded path in XSL transformation*?*Bug
+46933*?*Using Java in StringManager*?*Bug
+46982*?*AccessLogValve reports correct time but incorrect offset following Spring DST transition*?*Bug
+41606*?*The jspInit method is called twice*?*Bug
+46822*?*Avoid redundant instantiations in StandardContext*?*Bug
+46866*?*Seed from current time is useless*?*Bug
+46875*?*CometConnectionManagerValve concurrent access on session object when calling HttpSession invalidate*?*Bug
+46666*?*Why is disableUploadTimeout and KeepAliveTimeout correlated in Http Connector*?*Bug
+46696*?*Missing AL headers*?*Bug
+39396*?*OPTIONS request on directory with no default file reports an incorrect list of allowed HTTP verbs*?*Bug
+38570*?*if docBase path contains webapps backslash is inserted*?*Bug
+38553*?*Wrong HTTP code for failed CLIENTCERT authentication*?*Bug
+38197*?*taglib pool bug when tag is used with jsp attribute*?*Bug
+46606*?*WebdavServlet*?*Bug
+46564*?*tagx files don compile if the document and page encoding casing differs*?*Bug
+46471*?*Compiled tag files from different tag libraries share the same package*?*Bug
+46462*?*JSPWiki JSP compilation prevented by org apache jasper Constants JSP PACKAGE NAME*?*Bug
+46298*?*JDBCRealm open throws NullPointerException if the specified driver doesn handle the specified JDBC URL*?*Bug
+46261*?*Context with in name causes tomcat crash on shutdown*?*Bug
+46381*?*Coerce EL expression to java lang Object breaks expression concatenation*?*Bug
+46357*?*FarmWarDeployer has nonsense condition*?*Bug
+46397*?*Potential memory leak with TagHandlers and JspIdConsumer*?*Bug
+46403*?*Persistent cookies written by do not work in Internet Explorer or Safari*?*Bug
+46408*?*Invalid cast in SecurityUtil*?*Bug
+46247*?*SVN property patches*?*Bug
+42077*?*the iterator from javax el CompositeELResolver getFeatureDescriptor must not return null values*?*Bug
+42693*?*JSPGeneration error with recursive tagfile structure*?*Bug
+42707*?*add host alias using jmx doesn take affect until restart*?*Bug
+42673*?*SSI virtual include broken for context path with slashes*?*Bug
+46011*?*Cannot access to Principal via Subject getSubject AccessController getContext*?*Bug
+46047*?*Issue when using include directive inside tag files that are inside jar files*?*Bug
+42409*?*Extra response headers not sent when using custom error page*?*Bug
+46051*?*Servlet response writer does not respect line separator system property*?*Bug
+46105*?*URIEncoding doesn affect after formauthentication redirect*?*Bug
+46075*?*FileUpload memory usage*?*Bug
+46085*?*Session are incorrectly expired due to thread unsafe code*?*Bug
+46096*?*DefaultAnnotationProcessor processAnnotations should use doPrivileged to call getDeclaredFields*?*Bug
+45735*?*Updated ResourceAttributes getETag*?*Bug
+45977*?*Duplicate comment in code CoyoteAdapter java*?*Bug
+45951*?*Provide support for renaming JSESSIONID*?*Bug
+45933*?*Error processing TLD file in webapp with XML parser*?*Bug
+45851*?*FarmWarDeployer fails to properly unpack copied war on target node*?*Bug
+45026*?*Custom HTTPError codes get remapped to er codes*?*Bug
+45419*?*Return AcceptRanges from DefaultServlet*?*Bug
+45441*?*Matching of relevant servlet filters fails when request is forwarded*?*Bug
+45823*?*AccessLogValve doesn correctly handles combined log format with patch*?*Bug
+45618*?*Selector is not closed*?*Bug
+45413*?*Contribution of Bayeux implementation for Tomcat*?*Bug
+45628*?*ExtensionValidator doesn handle wrapped lines in MANIFEST MF*?*Bug
+45666*?*JspContextWrapper contains infinite loop in include String relativeUrlPath boolean flush*?*Bug
+45648*?*Function length not found*?*Bug
+45691*?*Jasper creates duplicate variable names*?*Bug
+45074*?*Add configuration parameters for finer tuning of Http AprProtocol thread usage*?*Bug
+44809*?*Improve AprLifecycleListener Error Messages*?*Bug
+43327*?*Socket bind fails on tomcat startup when using apr*?*Bug
+45655*?*check permisson*?*Bug
+45608*?*Race conditions on field countAllocated of class org apache catalina core StandardWrapper*?*Bug
+41407*?*CLIENTCERT Authentication with JAASRealm not working*?*Bug
+45576*?*JAASRealm not working with DigestAuthenticator*?*Bug
+45591*?*NullPointerException during shutdown in JKMain pause*?*Bug
+45453*?*JDBCRealm getRoles bad synchronization causes hangs DIGEST authentication*?*Bug
+45459*?*Startup Listener error message unhelpful*?*Bug
+42727*?*CoyoteReader readLine returns null for some post request bodies that are multiple of MAX LINE LENGTH in size*?*Bug
+42722*?*Potential NullPointerException in org apache catalina servlets CGIServlet*?*Bug
+42678*?*docBase ignored even if its not subdir of appBase*?*Bug
+45317*?*DeltaManager always reports default timeout value for receiving session state on startup*?*Bug
+36155*?*tomcat chooses wrong host if using mod jk*?*Bug
+45279*?*McastServiceImpl leaks sockets*?*Bug
+45101*?*DirContextURLConnection Format Date Header Values per HTTP spec*?*Bug
+42750*?*Http Post requests not handled correctly if there is more than one space between the POST and the URL*?*Bug
+44986*?*JSP compilation exception with pageEncoding utf and file with byte order marks*?*Bug
+42934*?*sessionDidActivate called before contextInitialized*?*Bug
+42943*?*jsp text gets confused with other text elements in JSP tag file*?*Bug
+43080*?*Suspicious url pattern warning logged to wrong webapp*?*Bug
+43191*?*compressableMimeType attribute ignored*?*Bug
+43150*?*Tomcat and path with pound sign ClassNotFoundException*?*Bug
+43142*?*webapp expanded in FOLDER named webapps xxx war is loaded TWICE*?*Bug
+43366*?*Session Statistics command in manager fails with Unknown command sessions*?*Bug
+44877*?*ClassCastException due to bad TagHandlerPool name generation of two different tags*?*Bug
+43425*?*Noncompliant annotations*?*Bug
+31257*?*java endorsed dirs is not used when JSP compilation is forked*?*Bug
+29936*?*XML parser loading problems by container*?*Bug
+44380*?*TldConfig Scan of URL that are not files*?*Bug
+44389*?*Cleanup of org apache naming resources CacheEntry resources memory leak*?*Bug
+44391*?*SSI handling of escaped characters broken*?*Bug
+44392*?*HTML entities not resolved in SSI filter*?*Bug
+44408*?*ELexpression evaluation slow due to synchronization caused by JspFactory getDefaultFactory*?*Bug
+44428*?*FunctionMapperImpl Function throws NPE in certain circumstances*?*Bug
+44595*?*Add possibility to request the QueueSize of an executor via JMX*?*Bug
+44529*?*RealmBase authorization via hasResourcePermission not fully servlet spec compliant*?*Bug
+44673*?*ServletInputStream still readable even when closed*?*Bug
+44646*?*IllegalStateException when using CometConnectionManagerValve*?*Bug
+44558*?*cite attempted address when throwing Cannot assign requested address*?*Bug
+44562*?*HEAD requests cannot go through request dispatch include*?*Bug
+44337*?*Dir listing crashes if no readmefile present*?*Bug
+43701*?*Error while starting tomcat*?*Bug
+44282*?*WebappClassLoader findClass calls getClassLoader without privileges*?*Bug
+44268*?*Multiple registrations of same ServletContextListener class not possible*?*Bug
+44223*?*Tomcat ignores the javax net ssl trustStoreType system property*?*Bug
+43468*?*HTMLManagerServlet NullPointerException listing context*?*Bug
+11117*?*Coyote connector does not correctly deal with large PUT when using chunked transfer encoding*?*Bug
+43743*?*Cannot jspc precompile jsps with nested tag files*?*Bug
+43758*?*java lang NullPointerException from org apache jasper compiler ServletWriter printMultiLn on validation of JSPX with empty jsp scriptlet element*?*Bug
+43868*?*MBeanServer invoke issue*?*Bug
+43285*?*Missing EL Coercion causes argument type mismatch*?*Bug
+42503*?*ServletContext getResourceAsStream returns stale data*?*Bug
+43914*?*HTTP spec violation when generating HTTP redirects for folders without trailing slash*?*Bug
+43909*?*EL EvaluationContext wrapper hides locale*?*Bug
+43944*?*org apache el lang ELArithmetic coerce throws MissingResourceException for key el convert*?*Bug
+44088*?*Cannot expire session via html manager webapp*?*Bug
+44084*?*JAASRealm useContextClassLoader has problems*?*Bug
+43236*?*Response setCharacterEncoding fails after Response getWriter and Response reset*?*Bug
+43241*?*ServletContext getResourceAsStream does not follow API specs for Path*?*Bug
+43611*?*autodeployment with unpackWARs true does not work when context for that war file exists in server xml*?*Bug
+43622*?*compression minCompressionSize attribute not properly implemented*?*Bug
+43757*?*Improper parsing of response sendRedirect in JSP source*?*Bug
+43706*?*Fix litmus warning for WebdavServlet*?*Bug
+43887*?*StandardWrapper registerJMX doesn log exceptions correctly*?*Bug
+43893*?*WebdavServlet returns incorrect values for the href property when it is mapped with url prefix instead of*?*Bug
+43479*?*APR sendfile thread leaks memory*?*Bug
+43453*?*ClassCastException at org apache catalina core StandardContext findStatusPage int*?*Bug
+43435*?*AbstractReplicatedMap memberDisappeared is executed more than the necessity*?*Bug
+43356*?*keystoreFile parameter when specified as relative is not treated relative to CATALINA BASE or catalina base property for NioEndPoint*?*Bug
+30949*?*After Failed Include Request and Response not Unwrapped*?*Bug
+43216*?*ACTIVITY CHECK does not work correctly when Tomcat is restarted*?*Bug
+42944*?*plus sign in urlpattern in servletmapping does not work*?*Bug
+39212*?*bug in example code DummyCart java*?*Bug
+42753*?*Race condition when using available or reading in CometProcessor event*?*Bug
+41722*?*rolelink tag in web xml can not be omitted*?*Bug
+42314*?*Jasper output no details with compilation error in specific case*?*Bug
+42547*?*Same enventry web xml and ResourceLink context names causes NPE*?*Bug
+42643*?*Duplicate JSP function mapper variables*?*Bug
+42497*?*response should consistently include ETag header*?*Bug
+42559*?*ErrorReportValve does not provide an error report*?*Bug
+39875*?*RealmBase init needs cleanup*?*Bug
+42438*?*Duplicate JSP temp variable declaration when jsp attribute used in conjunction with custom tags*?*Bug
+42459*?*Tomcat Web Application Manager table error*?*Bug
+42444*?*Potential NullPointerException in org apache catalina valves AccessLogValve*?*Bug
+42361*?*POST content type incorrect for multipart forms after login*?*Bug
+42309*?*Request support for NIO in Embedded Tomcat*?*Bug
+42308*?*with APR bytessent bytesreceived performance data is not collected*?*Bug
+42202*?*if you install tomcat in directory with spaces it ignores TLD files inside jar files*?*Bug
+42071*?*If JSP throws an UnavailableException twice an IllegalStateException occurs*?*Bug
+42039*?*Tomcat doesn output the stack trace of UnavailableException*?*Bug
+42119*?*request getCharacterEncoding misparses charset UTF xyz*?*Bug
+42085*?*java util Logging duplicated since is OK*?*Bug
+42072*?*The call of the jspDestroy method violates it about the Java Servlet Specification SRV*?*Bug
+41289*?*Error when deploying XML Configuration file URL*?*Bug
+41703*?*Variable assigned with it own value*?*Bug
+41682*?*ClassCastException with BackupManager debug logging*?*Bug
+41166*?*Unable to start ReplicatedContext*?*Bug
+41675*?*Add debug statement when some necessary header information is missing*?*Bug
+40150*?*Incorrect User Role classnames are silently ignored*?*Bug
+41790*?*JDTCompiler getContents does not close the reader*?*Bug
+41752*?*Wrong message on exception in MemoryRealm*?*Bug
+41666*?*IfUnmodifiedSince failure*?*Bug
+41739*?*The servlet with the value in loadonstartup tag must be loaded at first*?*Bug
+41608*?*The log level is different at same messages*?*Bug
+41578*?*Avoid SimplePool get put synchronization in JspFactoryImpl*?*Bug
+41558*?*Unnecessary synchronization caused by JspFactory getDefaultFactory while servicing JSPs*?*Bug
+41521*?*filtermapping doesn support for servletname*?*Bug
+41466*?*NIO Connector IllegalArgumentException You can only write using the application write buffer provided by the handler*?*Bug
+39572*?*fixes to use CompressionFilter in WebSphere app server*?*Bug
+41265*?*JspServlet checkInterval parameter cannot be set to implicitly*?*Bug
+40524*?*request getAuthType returns different string from HttpServletRequest CLIENT CERT AUTH*?*Bug
+41217*?*SingleSignOn Cookie does not honor https access Login Information Disclosure*?*Bug
+41327*?*Jasper does nt display the full path of the file in Not found error page*?*Bug
+40820*?*Default JSP factory not initialized early enough*?*Bug
+41074*?*Output of tag jsp plugin is not conform to XHTML*?*Bug
+40585*?*org apache juli FileHandler does not allow programmatic creation using parametrized constructor*?*Bug
+41089*?*JspFactoryImpl has SPEC VERSION*?*Bug
+41057*?*Tomcat leaks memory on every request*?*Bug
+41008*?*POST request ignores command line parameters*?*Bug
+40901*?*listings page does not escape XML characters*?*Bug
+40929*?*Misleading comments in StandardClassLoader*?*Bug
+40860*?*Tomcat loses request parameters*?*Bug
+37509*?*ClassLoaderLogManager remove \n at the end of logging properties values*?*Bug
+40844*?*JDBCRealm getPassword throws NullPointerException*?*Bug
+40913*?*JasperException raised against valid attribute*?*Bug
+34956*?*Tomcat should enforce the requirements from servlet specification SRV*?*Bug
+40817*?*servletcgi throws index out of bounds exception on certain cgi*?*Bug
+37458*?*Datarace on org apache catalina loader WebappClassLoader*?*Bug
+40723*?*Wrong and misleading documentation in JDBCAccessLogValve*?*Bug
+40771*?*Can read POST data from within filter or valve*?*Bug
+39724*?*Bug on StandardPipeline removeValve Valve valve for*?*Bug
+29727*?*JNDI enventry not reload when context reloaded*?*Bug
+40625*?*CGIServlet eats root cause*?*Bug
+40518*?*The message key requestListenerValve requestInit has not be referred to correctly*?*Bug
+34399*?*Undeploying fails when context defined in server xml server fails to stop*?*Bug
+34509*?*tag names that are xml Name but not java identifier are not accepted*?*Bug
+33356*?*Incorrect parsing of tag attributes*?*Bug
+31804*?*setParent is not called on nested tags in tag file tagx*?*Bug
+38713*?*java io IOException tmpFile renameTo classFile failed when compiling new JSP upon redeploy*?*Bug
+40306*?*mod jk POST request bodies are not restored on successful login when using mod jk*?*Bug
+38676*?*permanently reloading tagfile classes without changes to the tagfile*?*Bug
+39592*?*SSI does not correctly process HEAD request*?*Bug
+39689*?*Tomcat Server Side Includes SSI do not work with single quotes*?*Bug
+34801*?*PATCH CGIServlet does not terminate child after timeout*?*Bug
+40012*?*Legacy EL Support not resolving variables correctly*?*Bug
+39769*?*Wrong class loader when the myServlet destroy called if myServlet is in the shared directory*?*Bug
+39699*?*simple deploy failed in cluster distributable flag*?*Bug

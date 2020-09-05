@@ -1,0 +1,122 @@
+1811*?*custom languagetagresolver or fix bcp resolver*?*Bug
+1770*?*translatelanguage directive is not working together with asynchronous language loading by static files loader when translation files are big enough*?*Bug
+1707*?*does not update locale after page reload*?*Bug
+1705*?*translate cloak class not removed when using translatecloak directive*?*Bug
+1680*?*update documentation examples to reflect newest angulartranslate version*?*Bug
+1670*?*escapeparameters escapes null to null or to*?*Bug
+1649*?*staticfilesloader not loading the strings on first pageload*?*Bug
+1646*?*incorrect value of params in static loader request*?*Bug
+1620*?*onready doc duplicate of isready*?*Bug
+1618*?*sanitation strategy sce fails with fallback language*?*Bug
+1600*?*missingtranslationhandlerlog changes functionality*?*Bug
+1577*?*translateattr not working*?*Bug
+1560*?*angulartranslate issue when interpolating parameters with escapeparameters sanitization*?*Bug
+1511*?*error when trying too translate falsy value with translate filter*?*Bug
+1509*?*help forcing another language in controller not working*?*Bug
+1480*?*translatecloak has problems with ngif modals dropdowns*?*Bug
+1471*?*forcing another language does not work anymore breaking in*?*Bug
+1468*?*infinite loop when fallback language async loading fails*?*Bug
+1461*?*strip comments from min js*?*Bug
+1415*?*fallbacklanguage broken after upgrade to*?*Bug
+1404*?*text with empty value in fallback language shows the key as value*?*Bug
+1396*?*infinite loop when translate params is recursive object*?*Bug
+1394*?*incompatible with angular according to bower*?*Bug
+1390*?*determinepreferredlanguage registeravailablelanguagekeys still try to load unavailable language*?*Bug
+1389*?*using forcelanguage does not load language automatically*?*Bug
+1384*?*translatecloak does not work properly with fallbacklanguage async load*?*Bug
+1368*?*fallback language translations failing to be processed*?*Bug
+1352*?*issue with colon at the end of translation*?*Bug
+1326*?*when using partial translations and multiple translate refresh are called not all translations are loaded*?*Bug
+1311*?*how to get rid of quick flickering of untranslated content*?*Bug
+1287*?*onready usage*?*Bug
+1266*?*contributing md instruction npm run cleantestscopes doesn work*?*Bug
+1248*?*shadow repositories should exclude angularjs at the moment*?*Bug
+1241*?*global translatecloak*?*Bug
+1239*?*translate isready is never true*?*Bug
+1175*?*translatecloak should not cloak when translate is already started*?*Bug
+1160*?*translate directive doesn translate every key after migrating from to*?*Bug
+1135*?*sanitize value strategy and translatecompile*?*Bug
+1120*?*french demo section for page not working as expected*?*Bug
+1112*?*fouc problems with async loader*?*Bug
+1087*?*locale de could not be loaded*?*Bug
+1077*?*javadoc typo on description of useloadercache*?*Bug
+1075*?*fallbacklanguage invocation changes breaks uselocalstorage*?*Bug
+1056*?*translationcache unknown provider*?*Bug
+1044*?*error when sanitize strategy escaped and value is undefined*?*Bug
+1028*?*promise returned translate refresh never gets rejected in case of xhr failure*?*Bug
+1025*?*chapter security must be reworked missing sanitization*?*Bug
+1015*?*jshint configuration actually broken*?*Bug
+981*?*fallback to predefined language language results in with async load*?*Bug
+972*?*when staticfilesloader loaded language returns the translate directive shows locale key*?*Bug
+968*?*guide code example mistake asynchronousloading usingacache*?*Bug
+955*?*uselocalstorage doesn work*?*Bug
+954*?*using html data attributes causes unexpected behavior with translateattrattr*?*Bug
+952*?*example doesn work in guide pluralization*?*Bug
+950*?*fallbacklanguage causes inconsistent translate directive behaviour inside ngif*?*Bug
+929*?*translatecloak not cloaking*?*Bug
+925*?*issue with node nodevalue value when using translatedirective in ie*?*Bug
+920*?*usestaticfilesloader with fallbacklanguage*?*Bug
+909*?*unconsistent behaviour with translate directive and translation id to be partially interpolated*?*Bug
+900*?*bug in translatepartialloader loading locale files which are prebundled*?*Bug
+875*?*issue with translate service not rendering text from translationid*?*Bug
+866*?*translationnotfoundindicator doesn work with translate filter on*?*Bug
+863*?*missing var statement*?*Bug
+855*?*translate promises resolving with id value and undefined language on async loading init when fallbacklanguage and preferredlanguage are set*?*Bug
+854*?*old translation will not refreshed in case of empty translationid*?*Bug
+850*?*directive element text is not replaced by translation defined in attribute anymore*?*Bug
+848*?*fallback language fails under certain conditions*?*Bug
+846*?*translate filters don resolve always probably when static files take longer to load in angular*?*Bug
+831*?*hack to make translations work with angular*?*Bug
+824*?*second load from failed static files load reads from internal tables instead of retrying the actual file load*?*Bug
+822*?*regression test fails against latest ajs*?*Bug
+821*?*init not working on android*?*Bug
+794*?*variable replacement in translate filter fails with angular*?*Bug
+789*?*errors when using translate directive with dynamic value and messageformat pluralization*?*Bug
+782*?*apidocs filter translate demo not working*?*Bug
+766*?*translatepartialloader has circular dependency on translate as of version*?*Bug
+765*?*translatedefault fails to work if using fallback languages*?*Bug
+758*?*fallback language fails for missing shortcuts*?*Bug
+754*?*order of http options wrong*?*Bug
+752*?*error can interpolate*?*Bug
+733*?*translatecloak class not removed if fallbacklanguage is currently selected as local storage key*?*Bug
+723*?*exception when no translation found*?*Bug
+717*?*translate directive not working in svg on safari*?*Bug
+701*?*interpolation in directive not working as expected*?*Bug
+700*?*npm publication*?*Bug
+689*?*fallback staticloader and foucprevention lead to wrong request*?*Bug
+678*?*it looks like example does not work*?*Bug
+658*?*translatecloak directive adds cloak class but does not remove it*?*Bug
+652*?*loading inside an angular controller failed*?*Bug
+647*?*multiple use calls and async rejections*?*Bug
+629*?*securityerror dom exception is thrown when local storage cookies are blocked in safari on ios*?*Bug
+622*?*fallbacklanguage does not work with usestaticfilesloader*?*Bug
+535*?*fouc and staticfilesloader question*?*Bug
+523*?*translate service then callback does not fire for non preferredlanguage*?*Bug
+513*?*fix https version of angulartranslate github io*?*Bug
+508*?*logo in docs guide is linked wrong*?*Bug
+437*?*trim in javascript not working in ie*?*Bug
+435*?*partial loader and trim translationid sometimes not present*?*Bug
+429*?*bug when using templatecache and ngrepeat*?*Bug
+376*?*async loading can have surprising behavior*?*Bug
+370*?*filter is still working directive doesn in combination with the partial loader*?*Bug
+368*?*does not work with undefined keys*?*Bug
+364*?*doc chapter security the demo does not show the hack correctly*?*Bug
+300*?*translations not loaded properly when transformresponse is turned off*?*Bug
+298*?*typeerror cannot call method trim of undefined in translate directive*?*Bug
+286*?*fallback language being treated as an array with async loaders*?*Bug
+248*?*got exception with translate*?*Bug
+209*?*translation fails if interpolated id is an empty string*?*Bug
+187*?*spurious translation for undefined doesn exist log message*?*Bug
+184*?*directives aren applied to elements in translated content*?*Bug
+175*?*partial loader fouc*?*Bug
+162*?*image in page title on documentation*?*Bug
+136*?*proposedlanguage does not get reset after being confirmed*?*Bug
+134*?*variable as key looping in the template*?*Bug
+132*?*variable replacement inside loops*?*Bug
+129*?*ngclick doesn work with translate directive*?*Bug
+128*?*doc guide mistakes*?*Bug
+103*?*missing devdependency angularcookies wrong file name for angulartranslate js in demos*?*Bug
+85*?*fixing plato integration*?*Bug
+79*?*timing issue when using angulartranslateloaderstaticfiles*?*Bug
+74*?*missingtranslationhandlerfactory does not work well with angulartranslateloaderurl*?*Bug
+46*?*ngtranslate is not working on ie*?*Bug

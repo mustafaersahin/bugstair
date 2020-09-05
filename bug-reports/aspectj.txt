@@ -1,0 +1,284 @@
+28919*?*waever tries to weave into native methods*?*Bug
+28974*?*Compiler error when introducing final field*?*Bug
+29186*?*ajc emacssym chokes on pointcut that includes an intertype method*?*Bug
+29769*?*Ajde does not support new AspectJ compiler options*?*Bug
+29934*?*runtime NullPointerException when applying around advice to other around advice*?*Bug
+29959*?*super call in intertype method declaration body causes VerifyError*?*Bug
+30168*?*Error with certain combination of advice*?*Bug
+30439*?*spurious circular dependency error*?*Bug
+31423*?*Pointcut adviceexecution does not work*?*Bug
+31460*?*Weaving class loader*?*Bug
+32463*?*ajc reports error when encountering static declaration of nested classes*?*Bug
+33635*?*Negation of if pointcut does not work*?*Bug
+34858*?*Weaver crash*?*Bug
+34925*?*compiler crash on yesterday rc build*?*Bug
+34951*?*NPE compiling without aspectjrt jar*?*Bug
+36234*?*out of memory error when compiling*?*Bug
+36430*?*Support Xreweavable option*?*Bug
+36803*?*BCException thrown by AspectJ rc*?*Bug
+37576*?*Ant task switches boot classpath entities in rc*?*Bug
+37739*?*Unexpected Xlint unresolvableMember warning with withincode*?*Bug
+38131*?*ajc needs option while correctly compiling classes from subpackage*?*Bug
+39436*?*Tasks No summary shown in status line*?*Bug
+39626*?*Compiler error when compiling buggy class*?*Bug
+39993*?*ajc stack trace on declaring hashcode method in aspect*?*Bug
+40192*?*build cancel during weaving*?*Bug
+40257*?*parsing of paths in LST files is broken*?*Bug
+40380*?*AspectJ does not honour libraries defined via Project Properties*?*Bug
+41123*?*Weaving failure when using injars*?*Bug
+41952*?*XLint warning for call PCD using subtype of defining type*?*Bug
+42539*?*throw derivative pointcuts not advised*?*Bug
+42573*?*lst file entries not resolved relative to list file boot classpath extdirs*?*Bug
+42993*?*Language regression or possible language improvement*?*Bug
+43033*?*Compiler crash in ajc head post rc on erroneous program*?*Bug
+43194*?*java lang VerifyError in generated code*?*Bug
+43709*?*structure view crash when extending library aspects*?*Bug
+44117*?*NPE on compile*?*Bug
+44191*?*Need better error message for can find type*?*Bug
+44272*?*retitle warning to circular advice dependency at*?*Bug
+45489*?*Structure model is wrong when reopened*?*Bug
+46280*?*compiler issues error on inner aspects when privilieged*?*Bug
+46298*?*Aspectj generate code does not decompile cleanly*?*Bug
+47318*?*org aspectj asm IRelationship Kind ALL does not contain all kinds*?*Bug
+47754*?*illegal method modifier*?*Bug
+47910*?*ajc outjar jarfile does not contain MANIFEST MF*?*Bug
+47952*?*SoftException printStackTrace should print wrapped throwable too*?*Bug
+48080*?*Context information in declare warning error messages*?*Bug
+48091*?*Lazy instantiation of thisJoinPoint*?*Bug
+48990*?*Special case if false to not require dynamic test*?*Bug
+49250*?*alias getCause for getWrappedThrowable in SoftException*?*Bug
+49457*?*No error on overloaded pointcuts unless binding variables*?*Bug
+49638*?*exception logging after throwing advice can convert Throwable obj to string and ajc aborts*?*Bug
+49657*?*Weaver results in rt error if affected base class not exposed*?*Bug
+49743*?*performance improvements for runtime library*?*Bug
+50200*?*aspectjrt jar manifest file name needs changing to upper case*?*Bug
+50570*?*CatchClauseSignature has broken operation*?*Bug
+50776*?*fail in compiling aspect with overriding method introduction with different throws clause*?*Bug
+51320*?*ClasscastException on concretization of if false*?*Bug
+51322*?*Introduce Unknown Type to class causes Null pointer exception*?*Bug
+51929*?*Advice calling protected super method causing java lang VerifyError Bad access to protected data*?*Bug
+52394*?*intertype declarations cause JRockit Crash*?*Bug
+53012*?*declare precedence on class should be compiletime error*?*Bug
+53981*?*proceed used as method name in around advice*?*Bug
+53999*?*can bind type message has for in type name for declare soft*?*Bug
+54421*?*Compile time declarations warning and error do not accept string concatenation with*?*Bug
+54625*?*Incremental support does not work with outjar*?*Bug
+54965*?*Incremental compilation does twice as much work as necessary*?*Bug
+55341*?*error Type mismatch cannot convert from java lang String to java lang String*?*Bug
+57430*?*exception printing*?*Bug
+57436*?*Java fails to run classes produced by ajc*?*Bug
+57666*?*duplicate manifests cause resourcecopying to gack*?*Bug
+58520*?*ajdoc doesn navigate to target details in some cases*?*Bug
+58681*?*NAME*?*Bug
+59208*?*Weaver fails in BCEL for large classes*?*Bug
+59596*?*Null pointer exception while weaving java awt Label*?*Bug
+59895*?*NPE updating an aspect in incremental mode*?*Bug
+59909*?*CFlowStack removesThreads to late*?*Bug
+60015*?*NPE Incorrect XLint unmatchedSuperTypeInCall warning*?*Bug
+61411*?*AJDoc launch script on Windows can lose arguments*?*Bug
+61536*?*Frontend bug shouldn allow patterns of the form foo should be foo*?*Bug
+62227*?*Load Time Weaving aborts on any kind of warning declare xlint*?*Bug
+62642*?*proper handling of ExceptionInIntializer inside clinit in presence of after throwing advice*?*Bug
+64331*?*java lang NullPointerException in WeaverMessageHandler class*?*Bug
+65319*?*ajc crashes when compiling the following program binding this and target*?*Bug
+67592*?*value in the args array of thisjoinpoint can be changed by one advice decl and updated values seen in another advice decl*?*Bug
+67774*?*Nullpointerexception in pointcuts using withincode clause*?*Bug
+68494*?*ajdoc does not support aj files*?*Bug
+68991*?*intertype initialisers should match field set pointcuts*?*Bug
+69011*?*ajdoc fails when using default package*?*Bug
+69459*?*Hiding of Instance Methods by static methods*?*Bug
+70008*?*problem with ajdoc public*?*Bug
+70241*?*outline view shows anonymous inner classes in different way than jdt outline*?*Bug
+70619*?*compiler aborts with conflicting dominates orders with circular declare precedences*?*Bug
+70773*?*AspectJ Error ConncurrentModificationException thrown null*?*Bug
+71377*?*Cannot advise private method call in around advice*?*Bug
+71723*?*Inconsistency in scoping of protected members in ITDs*?*Bug
+71811*?*AJDoc should be able to set encoding like javadoc*?*Bug
+71878*?*Bad injar aspect name on Linux*?*Bug
+72150*?*AJC possible bug with static nested classes*?*Bug
+72154*?*Support for simple dump file*?*Bug
+72157*?*declare soft can cause programs with invalid exception behaviour to be generated*?*Bug
+72528*?*around advice throws java lang VerifyError at runtime*?*Bug
+72531*?*declare warning warns at wrong points*?*Bug
+72671*?*Bootclasspath specification for compiling is not possible*?*Bug
+72699*?*Bogus error message The abstract method ajc pointcut tracingScope a in type Tracing can only be defined by an abstract class*?*Bug
+73433*?*AspectJ does not correctly support cp*?*Bug
+74238*?*Applet which uses cflow pointcut gets AccessControlException*?*Bug
+74952*?*before after cflow within Trace prints nothing*?*Bug
+76055*?*Some Pointcut PatternNodes are missing getters to traverse syntax tree*?*Bug
+76096*?*Anonymous classes unaware of introductions into abstract classes error can find type Local*?*Bug
+76798*?*Add versions to woven class files enabling better backwards compatibility*?*Bug
+77163*?*Load time weaver default verbose setting*?*Bug
+77799*?*NullPointerException in StructureSearchManager*?*Bug
+80249*?*Order of types passed to compiler determines weaving behavior*?*Bug
+80916*?*In some cases the structure model doesn contain the matches declare relationship*?*Bug
+81846*?*EclipseAdapterUtils java*?*Bug
+81863*?*Annotation matching using within PCD doesn appear to be working*?*Bug
+82062*?*WeaveMessage should provide more information*?*Bug
+82134*?*AspectJ should implement backwards compatibility for binary aspect form*?*Bug
+82171*?*enable ASM interoperability with JavaCore via uniform element handles*?*Bug
+82218*?*fails to doc spacewar using AJDT*?*Bug
+82570*?*Weaved code does not include debug lines*?*Bug
+82752*?*ProgramElement getSourceSignature returns public for private members*?*Bug
+83303*?*complier error when mixing inheritance overriding and polymorphism*?*Bug
+83563*?*pertypewithin handing of inner classes*?*Bug
+83565*?*BCException bad type name thrown when compiling*?*Bug
+86789*?*annotations and circularity in declare precedence*?*Bug
+87376*?*NPE when unresolved type of bound var in pointcut expression EclipseFactory java*?*Bug
+88652*?*an array type as the last parameter in signature does not match on the varargs declared method*?*Bug
+92880*?*AJ PTW*?*Bug
+95517*?*ajc pseudo LTW not consistent with LTW*?*Bug
+95529*?*concreteaspect*?*Bug
+96371*?*Patch to support loading aop xml properly*?*Bug
+98320*?*generics itds intertype with nested generic type*?*Bug
+99168*?*generics itds ITD on generic inner class crashes ajc*?*Bug
+100195*?*Missing LocalVariableTable debug info for around advice*?*Bug
+100227*?*generics itds inner class with generic enclosing class*?*Bug
+101047*?*Weaver produces wrong local variable table bytecode*?*Bug
+102459*?*provide more detail in showWeaveInfo messages*?*Bug
+103741*?*Problem turning off Java Support with annotation pointcut TypeX java*?*Bug
+107299*?*NAME*?*Bug
+108118*?*Complete implementation of SuppressAjWarnings*?*Bug
+109173*?*Weaving Adaptor enhancements for performance configuration and diagnosis*?*Bug
+109614*?*waitingonbuild iajc task java lang RuntimeException Ranges must be updated with an enclosing instructionList*?*Bug
+112243*?*Compiler Core Dump with Apparent Fix*?*Bug
+112736*?*Bogus Compiler Warnings when Converting file extensions*?*Bug
+113257*?*Incremental Compilation Bug parameter not bound with no parameter*?*Bug
+113510*?*readAspect*?*Bug
+113511*?*LTW enhancements*?*Bug
+114343*?*generics fieldget problems when generic field is used*?*Bug
+114875*?*Pointcut throws java lang NullPointerException*?*Bug
+115251*?*BCException when compiling incrementally on constructorcall shadow*?*Bug
+115252*?*want xlint message for improper annotation type*?*Bug
+115275*?*aop xml aspect include*?*Bug
+115607*?*Incorrect structure model for simple declare type program*?*Bug
+116626*?*Loadtime weaving exception from the weaver*?*Bug
+116949*?*waitingOnAJDTdrop Exception thrown from AspectJ compiler*?*Bug
+117189*?*Contribution reduce overhead when no aspects define*?*Bug
+117209*?*Runtime error Stack size too large Bug related*?*Bug
+117296*?*Stack overflow when using selfbounded generics*?*Bug
+117681*?*VerifyError when using annotations to define intertype annotation*?*Bug
+117882*?*waitingonbuild NullPointerException with declare annotations and incremental compilation*?*Bug
+118192*?*Missing superclass for java io Serializable in reflection delegate impl*?*Bug
+118599*?*Ambiguous method error when weaving in binary aspects*?*Bug
+118715*?*Load Time Weaving wipes out Xlint files if no Xlint values*?*Bug
+118781*?*waitingonbuild VerifyError in AspectJ*?*Bug
+119210*?*NullPointerException with around advice on fieldset*?*Bug
+119353*?*Inconsistent Implementations of ReferenceType getDeclaredMethods*?*Bug
+119451*?*AJDoc produces incorrect warning for package accessed aspects*?*Bug
+119539*?*generic pertypewithin advice fails to match though pointcut does*?*Bug
+119543*?*waitingonbuild StringIndexOutOfBoundsException perhaps due to nested aspects and targets*?*Bug
+119749*?*execution incorrectly matching based on overridden method throws clause*?*Bug
+120351*?*cflowbelow issue when binding in AJ*?*Bug
+120356*?*AJ decl err warn does not show cross structure view*?*Bug
+120363*?*LTW weaver include and exclude does not behave correctly*?*Bug
+120401*?*add signature to UnresolvedType parameterize exception*?*Bug
+120474*?*Don dump stack trace when loading Proxy classes*?*Bug
+120543*?*Issue version message during loadtime weaving*?*Bug
+120739*?*LTW Optimization Disable World if it has No Aspects*?*Bug
+120909*?*Test failures using IBM Java*?*Bug
+121395*?*invalid aspectj path throws filenotfoundexception*?*Bug
+121616*?*AspectJ Lacking import for JoinPoint crahes the compiler*?*Bug
+122370*?*AspectJ DeclareParents declare parents not equivalent*?*Bug
+122580*?*Fix Bug Circularity Failure for Verbose Loading on JRockit Agent*?*Bug
+122728*?*ajdoc crashes*?*Bug
+122742*?*AspectJ VerifyError with AfterThrowing AfterReturning and extra JoinPoint argument*?*Bug
+123212*?*Skip subversion resources when copying files from input to output folders*?*Bug
+123423*?*RFE Expose withinType for pertypewithin aspects*?*Bug
+123612*?*ArrayIndexOutOfBoundsException with incremental and declare type*?*Bug
+123695*?*Internal nullptr exception with complex declare annotation statement that affects injected methods*?*Bug
+124105*?*XhasMember doesn appear to work well with types in packages*?*Bug
+124654*?*Capture method annotation in generic aspect does not compile*?*Bug
+124808*?*generics detecting fieldget of field of parameterized type*?*Bug
+124999*?*generics Incorrect call to generic inherited method in around advice*?*Bug
+125101*?*StackOverFlow in ReferenceType isAssignableFrom*?*Bug
+125405*?*Bad user template code can lead to exception thrown message*?*Bug
+125475*?*AspectJ ajc cannot compile empty Pointcut*?*Bug
+125480*?*ltw aop xml aspect generator treats abstract methods as pointcuts*?*Bug
+125699*?*AspectJ Aspect cannot inherit advice using this PCD and thisJoinPoint*?*Bug
+125810*?*Missing error when inherited abstract pointcut not made concrete in sub aspect*?*Bug
+126328*?*IlegalStateException zip file closed*?*Bug
+128128*?*iajc doesn fail Ant build when compile errors occur*?*Bug
+128237*?*AspectJ NPE on AJ code with pointcut which contains logical OR operation*?*Bug
+128618*?*incremental XLint warnings in the wrong place with incremental compilation*?*Bug
+128655*?*annotations Compiler crashes possibly due to declare type*?*Bug
+128699*?*Incorrect error on declare statements*?*Bug
+128744*?*LTW doesn work using JRE in Eclipse*?*Bug
+129525*?*Don Dump Bytecodes to Syserr in LTW*?*Bug
+129566*?*ArrayIndexOutOfBoundsException with regular Java class*?*Bug
+130300*?*Remove hide or obfuscate XnoWeave*?*Bug
+130837*?*Exception while trying to edit Annotation based Aspect Class normal Java class*?*Bug
+130869*?*Pointcut resolution fails against type variables*?*Bug
+131505*?*Generated aop xml files contain aspects for all the projects ever built*?*Bug
+131932*?*structure model bug generic method ITD*?*Bug
+131933*?*grotty ClassCastException on referring to pointcut in generic type*?*Bug
+132130*?*Missing relationship for declare method when annotating colocated method*?*Bug
+132349*?*InterType Declaration on nested class in generic type IllegalStateException*?*Bug
+132591*?*Duplicate exception with aop xml file on aspectpath*?*Bug
+132926*?*Compiler crashes processing annotations*?*Bug
+133117*?*Lots of warnings with noGuardForLazyTjp*?*Bug
+133307*?*declare parents implementing generic interface referencing same type*?*Bug
+134541*?*adviceDidNotMatch line number doesn keep up with line number of advice*?*Bug
+135001*?*NPE at at org aspectj weaver bcel BcelShadow weaveAroundInline*?*Bug
+135068*?*VerifyError with LTW and AJ style aspects*?*Bug
+135780*?*Java dependency in aspectjrt jar bug with fix*?*Bug
+136665*?*Bug ajc fails on missing classpath entries with fix*?*Bug
+136707*?*iajc should print summary like javac*?*Bug
+138143*?*NullPointerException when duplicated method name is used*?*Bug
+138171*?*Internal compilation error while copying resources*?*Bug
+138215*?*Reference pointcut fails inside DeclareWarning*?*Bug
+138219*?*Can use FQ Reference pointcut in any pointcut expression referenced by perclause*?*Bug
+138223*?*Compiler crash on two binding xxx pcds in one compound expression*?*Bug
+138286*?*perthis causes ClassCastException*?*Bug
+138540*?*Patch to add support for Xset options*?*Bug
+141956*?*Null Pointer Exception when trying to skip Parent Mungers*?*Bug
+142165*?*rewriting XML concretized pointcuts doesnt work for AND construct*?*Bug
+145086*?*NPE when weak reference set in signature*?*Bug
+145693*?*Verify Error unless inpath entry also on classpath and with Xlint ignoring cantFindType*?*Bug
+145950*?*XaddSerialVersionUID doesn work if there is an indirect route to Serializable in the hierarchy*?*Bug
+146546*?*Remove hard coded dependency on in getFileName methods*?*Bug
+147701*?*DeclareParents does not use FQNs for exceptions declared in throwsclauses leading to NoClassDefFoundError*?*Bug
+147801*?*java lang ClassFormatError Repetitive method name signature*?*Bug
+148388*?*LTW weaver produces debug message at the begining*?*Bug
+148409*?*generics ClassCastException in UnresolvedType java*?*Bug
+148536*?*NullPointerException when declaring intertype annotation*?*Bug
+148537*?*ClassCastException on private nested annotation with Retention metaannotation given an arraytype value*?*Bug
+148545*?*NoSuchMethodError calling generic method of privileged aspect from advice*?*Bug
+148693*?*woven class does not pass org apache bcel verifier statics Pass Verifier*?*Bug
+148727*?*Can call synthetic aspectOf method on aspect in library jar*?*Bug
+148737*?*IllegalStateException for nongeneric type*?*Bug
+148786*?*new array construction join point can fail for freaky array constructors*?*Bug
+148908*?*incorrect source signature for field ipe with qualified allocation expression*?*Bug
+148972*?*problems with binary weaving declare parents in mixed environment*?*Bug
+149071*?*itds Improper visibility of ITD in nested inner type*?*Bug
+149289*?*Support system and user aop xml configuration files*?*Bug
+149305*?*AspectJ Source file ordering dependency in AspectJ aspects inheritance*?*Bug
+150271*?*Allow multiple levels of LTW information*?*Bug
+150671*?*declare error on set of volatile field does not work*?*Bug
+151182*?*NPE in BcelWeaver using LTW*?*Bug
+151673*?*Incorrect weaving of after returning when input bytecode is of strange form*?*Bug
+151845*?*NPE while building*?*Bug
+151938*?*Handle Duplicate javaagent entries more gracefully*?*Bug
+152257*?*Incremental compiler doesn handle exception declaration correctly*?*Bug
+152366*?*LTW Within Patterns Should Accept AND For Consistency*?*Bug
+152388*?*NPE in MessageUtil addExtraSourceLocations*?*Bug
+152589*?*pipeline adding whitespace results in adviceDidNotMatch warning*?*Bug
+152631*?*Problem with decp on an aspect using cflow*?*Bug
+152848*?*IllegalStateException thrown Expecting raw type*?*Bug
+152871*?*Parse bytecode at most once when weaving CPU time reduction*?*Bug
+152873*?*Optimize shouldWeaveAnnotationStyleAspect with Patch*?*Bug
+153490*?*IllegalStateException thrown How come we re in AsmObjectType resolving an inner type of something that is NOT AsmObjectType*?*Bug
+153535*?*Bug in reflection delegate signature for array of object type*?*Bug
+153845*?*generics Problem with signature for generic type*?*Bug
+154332*?*annotations Incorrect handling of java lang annotations when matching*?*Bug
+155148*?*jdk trace deadlock in oc*?*Bug
+155238*?*Trace should use System identityHashCode not hashCode*?*Bug
+155972*?*NullPointerException in ConstructorSignature getConstructor*?*Bug
+156904*?*Incorrect warning when advising private method of private inner class*?*Bug
+156962*?*annotations Problems with Deprecated in member signatures*?*Bug
+158412*?*Pointcut in declare error results in NPE*?*Bug
+158573*?*changing value of variable in aspect results in adviceDidNotMatch warning*?*Bug
+158624*?*Compiler Error generics and arrays*?*Bug
+159896*?*advice from injars do not have unique handles with the JDTLikeHandleProvider*?*Bug
+161217*?*NPE in BcelAdvice*?*Bug
+173602*?*InterTypeMethodDeclaration java*?*Bug
